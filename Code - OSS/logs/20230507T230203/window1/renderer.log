@@ -1,0 +1,57 @@
+2023-05-07 23:02:05.040 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-07 23:02:08.762 [info] [perf] Render performance baseline is 51ms
+2023-05-07 23:11:18.820 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: interactiveEditor.editMode, accessibility.verbosity.diff-editor, accessibility.verbosity.terminal
+2023-05-08 23:22:31.878 [error] Cannot read properties of null (reading 'domNode'): TypeError: Cannot read properties of null (reading 'domNode')
+    at E.Y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:142:16052)
+    at E.V (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:142:14443)
+    at E.V (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1046:48134)
+    at E.updateElementHeight (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:142:10673)
+    at e.NotebookCellList.updateElementHeight2 (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:104732)
+    at Oe (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2190:22392)
+    at e.NotebookEditorWidget.layoutNotebookCell (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2190:22602)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2190:11316
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:2121)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:1729)
+    at e.MarkupCellViewModel.layoutChange (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:85600)
+    at e.MarkupCellViewModel.gb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:84439)
+    at set editorHeight [as editorHeight] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:82283)
+    at e.MarkupCell.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1152:136995)
+    at e.MarkupCell.I (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1152:134289)
+    at new e.MarkupCell (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1152:131673)
+    at u.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:619:1296)
+    at u.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:619:788)
+    at Wc.renderElement (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2058:6473)
+    at H.renderElement (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:175:2051)
+    at E.W (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:142:15447)
+    at E.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:142:12380)
+    at E.splice (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:142:10890)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3:220583
+    at Array.forEach (<anonymous>)
+    at t.splice (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3:220570)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:175:7669
+    at m.bufferEvents (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:4467)
+    at e.NotebookCellList.splice (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:175:7645)
+    at e.NotebookCellList.splice2 (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:96365)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:95154
+    at Array.forEach (<anonymous>)
+    at e.NotebookCellList.lb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:94923)
+    at e.NotebookCellList.updateHiddenAreasInView (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:96240)
+    at e.NotebookCellList.setHiddenAreas (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1552:95731)
+    at e.NotebookEditorWidget.setHiddenAreas (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2190:20646)
+    at i.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1152:117808)
+    at i.setFoldingStateUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1152:117658)
+    at i.onMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1152:118196)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1152:116749
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:2121)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:1729)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2190:2346
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:2121)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:1729)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:91:27156
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:2121)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:1729)
+    at HTMLDivElement.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:8905)

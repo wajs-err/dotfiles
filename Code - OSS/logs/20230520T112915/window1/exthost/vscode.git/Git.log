@@ -1,0 +1,13 @@
+2023-05-20 11:29:19.363 [info] Log level: Info
+2023-05-20 11:29:19.363 [info] Validating found git in: "git"
+2023-05-20 11:29:19.363 [info] Using git "2.40.0" from "git"
+2023-05-20 11:29:19.363 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-20 11:29:19.363 [info] > git rev-parse --git-dir --git-common-dir [364ms]
+2023-05-20 11:29:19.363 [info] Open repository: /home/_wajs_err_/study/python/lab
+2023-05-20 11:29:19.461 [info] > git config --get commit.template [86ms]
+2023-05-20 11:29:19.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [127ms]
+2023-05-20 11:29:19.688 [info] > git status -z -uall [42ms]
+2023-05-20 11:29:19.780 [info] > git config --get commit.template [18ms]
+2023-05-20 11:29:19.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2023-05-20 11:29:19.872 [info] > git status -z -uall [7ms]
+2023-05-20 11:29:20.001 [info] > git check-ignore -v -z --stdin [29ms]

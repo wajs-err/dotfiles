@@ -1,0 +1,227 @@
+Visual Studio Code (1.78.0, undefined, desktop)
+Jupyter Extension Version: 2023.4.1001091014.
+Python Extension Version: 2023.8.0.
+Platform: linux (x64).
+Workspace folder ~/study/python/lab, Home = /home/_wajs_err_
+01:41:04.727 [info] ZMQ loaded without the fallback mechanism.
+01:41:04.943 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+01:41:04.943 [info] Start refreshing Kernel Picker (1685227264943)
+01:41:04.949 [info] Using Pylance
+01:41:05.000 [debug] No controller, hence notebook communications cannot be initialized for editor ~/study/python/lab/lab.ipynb
+01:41:05.336 [debug] Get Custom Env Variables, Class name = wc, completed in 393ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+01:41:05.336 [debug] Jupyter Paths /kernels: 
+01:41:05.340 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+01:41:05.352 [debug] Getting activated env variables, Class name = Is (started execution), Arg 1: "~/study/python/lab", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+01:41:05.352 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: "~/study/python/lab", Arg 2: "RunPythonCode"
+01:41:05.356 [debug] Get Custom Env Variables, Class name = wc, completed in 4ms, has a truthy return value, Arg 1: "~/study/python/lab", Arg 2: "RunPythonCode"
+01:41:05.377 [debug] Not Searching for kernels as path does not exist, /usr/share/jupyter/kernels
+01:41:05.377 [debug] Not Searching for kernels as path does not exist, /usr/local/share/jupyter/kernels
+01:41:05.437 [debug] Loading kernelspec from ~/.local/share/jupyter/kernels/python3/kernel.json for 
+01:41:05.441 [warn] Failed to get activated env vars for /bin/python in 88ms
+01:41:05.442 [debug] Create ProcessService, Class name = nc (started execution), Arg 1: undefined
+01:41:05.442 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+01:41:05.443 [debug] Conda file returned by Python Extension is conda
+01:41:05.444 [debug] Get Custom Env Variables, Class name = wc, completed in 2ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+01:41:05.444 [debug] Create ProcessService, Class name = nc, completed in 2ms, has a truthy return value, Arg 1: undefined
+01:41:05.455 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+01:41:05.510 [debug] USER_SITE for /bin/python is ~/.local/bin
+01:41:05.510 [debug] Prepend PATH with user site path for /bin/python, user site ~/.local/bin
+01:41:05.510 [debug] Prepend PATH with python bin for /bin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+01:41:05.510 [debug] Activated Env Variables for /bin/python, 
+    PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+01:41:05.510 [debug] Got env vars with python /bin/python in 158ms with 46 variables
+01:41:05.510 [debug] Getting activated env variables, Class name = Is, completed in 158ms, has a truthy return value, Arg 1: "~/study/python/lab", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+01:41:05.523 [info] Process Execution: /bin/python -m pip list
+01:41:05.759 [debug] Full interpreter list after refreshing (total 456ms, resolve 31ms, refresh 425ms) is length: 4, /bin/python:undefined::/bin/python:/bin/python, /sbin/python:undefined::/sbin/python:/sbin/python, /usr/bin/python:undefined::/usr/bin/python:/usr/bin/python, /usr/sbin/python:undefined::/usr/sbin/python:/usr/sbin/python
+01:41:05.763 [debug] Full interpreter list after refreshing (total 1ms, resolve 1ms, refresh 0ms) is length: 4, /bin/python:undefined::/bin/python:/bin/python, /sbin/python:undefined::/sbin/python:/sbin/python, /usr/bin/python:undefined::/usr/bin/python:/usr/bin/python, /usr/sbin/python:undefined::/usr/sbin/python:/usr/sbin/python
+01:41:05.765 [debug] refreshData after detecting changes to interpreters
+01:41:05.765 [debug] Listing Python & non-Python kernels for Interpreter /bin/python
+01:41:05.766 [debug] Listing Python & non-Python kernels for Interpreter /sbin/python
+01:41:05.766 [debug] Finding Global Python KernelSpecs
+01:41:05.767 [debug] refreshData after detecting changes to interpreters
+01:41:05.767 [debug] Listing Python & non-Python kernels for Interpreter /usr/bin/python
+01:41:05.768 [debug] refreshData after detecting changes to interpreters
+01:41:05.768 [debug] Listing Python & non-Python kernels for Interpreter /usr/sbin/python
+01:41:05.768 [debug] refreshData after detecting changes to interpreters
+01:41:05.770 [debug] refreshData after detecting changes to interpreters
+01:41:05.771 [debug] Full interpreter list is length: 4, /bin/python::Unknown:/bin/python, /sbin/python::Unknown:/sbin/python, /usr/bin/python::Unknown:/usr/bin/python, /usr/sbin/python::Unknown:/usr/sbin/python
+01:41:05.771 [debug] Refreshed Environments
+01:41:05.775 [debug] Kernel for interpreter /bin/python is .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+01:41:05.776 [debug] Kernels for interpreter /bin/python are .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+01:41:05.779 [debug] Kernel for interpreter /sbin/python is .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+01:41:05.779 [debug] Kernels for interpreter /sbin/python are .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+01:41:05.781 [debug] Kernel for interpreter /usr/bin/python is .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher
+01:41:05.781 [debug] Kernels for interpreter /usr/bin/python are .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher
+01:41:05.782 [debug] Kernel for interpreter /usr/sbin/python is .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher
+01:41:05.782 [debug] Kernels for interpreter /usr/sbin/python are .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher
+01:41:05.832 [debug] KernelProvider switched kernel to id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+01:41:05.832 [debug] start the kernel, options.disableUI=true for ~/study/python/lab/lab.ipynb
+01:41:05.833 [debug] Initialize notebook communications for editor ~/study/python/lab/lab.ipynb
+01:41:05.833 [debug] Resolving notebook UI Comms (resolve) for ~/study/python/lab/lab.ipynb
+01:41:05.833 [debug] initialize CommonMessageCoordinator
+01:41:05.836 [debug] Registering commtarget jupyter.widget
+01:41:05.836 [debug] IPyWidgetMessageDispatcher.initialize
+01:41:05.836 [debug] Attempting to determine version of IPyWidgets
+01:41:05.836 [debug] Controller selection change completed
+01:41:05.837 [debug] Waiting for IPyWidgets version
+01:41:05.837 [debug] Waiting for IPyWidgets version promise
+01:41:05.841 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.10.10) for '~/study/python/lab/lab.ipynb' (disableUI=true)
+01:41:05.841 [debug] Creating raw notebook for resource '~/study/python/lab/lab.ipynb'
+01:41:05.842 [debug] Kernel Launcher. launch, Class name = Kg (started execution), Arg 1: ".jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/study/python/lab/lab.ipynb", Arg 4: "~/study/python/lab", Arg 5: ""
+01:41:05.842 [debug] Getting activated env variables, Class name = Is (started execution), Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+01:41:05.842 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: "RunPythonCode"
+01:41:05.846 [debug] Get Custom Env Variables, Class name = wc, completed in 4ms, has a truthy return value, Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: "RunPythonCode"
+01:41:05.858 [debug] Launching kernel in kernelProcess.ts, Class name = Ug (started execution), Arg 1: "~/study/python/lab", Arg 2: ""
+01:41:05.930 [warn] Failed to get activated env vars for /bin/python in 88ms
+01:41:05.931 [debug] Prepend PATH with user site path for /bin/python, user site ~/.local/bin
+01:41:05.931 [debug] Prepend PATH with python bin for /bin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+01:41:05.931 [debug] Activated Env Variables for /bin/python, 
+    PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+01:41:05.931 [debug] Got env vars with python /bin/python in 89ms with 46 variables
+01:41:05.931 [debug] Getting activated env variables, Class name = Is, completed in 89ms, has a truthy return value, Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+01:41:05.943 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:41:05.943 [debug] Kernel Env Variables for ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/jupyter/kernels/pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json, PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+01:41:05.958 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"45cab5c5-938c-4101-878e-fe7101ee9624" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-43841xdavG7y9QFN5.json
+    > cwd: ~/study/python/lab
+01:41:05.958 [debug] Launching kernel in kernelProcess.ts, Class name = Ug, completed in 100ms, has a truthy return value, Arg 1: "~/study/python/lab", Arg 2: ""
+01:41:06.242 [info] ipykernel version & path 6.22.0, ~/.local/lib/python3.10/site-packages/ipykernel/__init__.py for /bin/python
+01:41:06.672 [debug] KernelProcess error: ~/.local/lib/python3.10/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+~/.local/lib/python3.10/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '45cab5c5-938c-4101-878e-fe7101ee9624' instead of 'b"45cab5c5-938c-4101-878e-fe7101ee9624"'.
+  warn(
+
+01:41:06.680 [debug] KernelProcess output: NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing kernel-v2-43841xdavG7y9QFN5.json
+
+01:41:06.680 [debug] Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-43841xdavG7y9QFN5.json
+
+01:41:06.772 [info] End refreshing Kernel Picker (1685227264943)
+01:41:06.778 [debug] Kernel Launcher. launch, Class name = Kg, completed in 935ms, has a truthy return value, Arg 1: ".jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/study/python/lab/lab.ipynb", Arg 4: "~/study/python/lab", Arg 5: ""
+01:41:06.804 [info] ZMQ loaded without the fallback mechanism.
+01:41:06.823 [debug] Waiting for Raw Session to be ready in postStartRawSession
+01:41:06.824 [debug] Waiting for Raw session to be ready, currently connected
+01:41:06.824 [debug] Raw session connected
+01:41:06.824 [debug] Waiting for Raw session to be ready for 30s
+01:41:06.826 [debug] Waited for Raw session to be ready & got connected
+01:41:06.826 [debug] Successfully waited for Raw Session to be ready in postStartRawSession
+01:41:06.826 [debug] Kernel status before requesting kernel info and after ready is unknown
+01:41:06.826 [debug] Sending request for kernelinfo
+01:41:06.903 [debug] Got response for requestKernelInfo
+01:41:06.903 [debug] Successfully compelted postStartRawSession
+01:41:06.905 [info] Started Kernel Python 3.10.10 (pid: 43975)
+01:41:06.906 [info] Started new session bb865698-1697-4c50-8ab9-613d2ea28852
+01:41:06.910 [debug] Started running kernel initialization for ~/study/python/lab/lab.ipynb
+01:41:06.914 [debug] Executing silently Code (idle) = try:\nimport ipywidgets as _VSCODE_ipywidgets\nprint("e976ee50-99ed-4aba-9b6b-9dcd5634d07d:IPy
+01:41:07.173 [debug] Executing silently Code (completed) = try:\nimport ipywidgets as _VSCODE_ipywidgets\nprint("e976ee50-99ed-4aba-9b6b-9dcd5634d07d:IPy with 1 output(s)
+01:41:07.174 [debug] Determined IPyKernel Version as 8 and event fired
+01:41:07.175 [debug] Version of IPyWidgets 8 determined after 1.339s
+01:41:07.180 [debug] Executing silently Code (idle) = import os as _VSCODE_os\nimport sys as _VSCODE_sys\n%cd "/~/study/python/lab"\nif _VSCOD
+01:41:07.215 [debug] Executing silently Code (completed) = import os as _VSCODE_os\nimport sys as _VSCODE_sys\n%cd "/~/study/python/lab"\nif _VSCOD with 1 output(s)
+01:41:07.215 [debug] Requesting Kernel info
+01:41:07.216 [debug] Got Kernel info
+01:41:07.216 [debug] End running kernel initialization, now waiting for idle
+01:41:07.217 [debug] Waiting for 60000ms idle on (kernel): bb865698-1697-4c50-8ab9-613d2ea28852 -> idle
+01:41:07.217 [debug] Finished waiting for idle on (kernel): bb865698-1697-4c50-8ab9-613d2ea28852 -> idle
+01:41:07.218 [debug] End running kernel initialization, session is idle
+01:41:07.223 [debug] IPyWidgetScriptSource.initialize
+01:41:07.224 [debug] IPyWidgetMessageDispatcher.initialize
+01:41:07.226 [debug] getDataDirsImpl, Class name = nh (started execution), Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: "/bin/python"
+01:41:07.227 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+01:41:07.230 [debug] Get Custom Env Variables, Class name = wc, completed in 3ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+01:41:07.230 [debug] Jupyter Paths : 
+01:41:07.246 [info] Process Execution: /bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/pythonFiles/printJupyterDataDir.py
+01:41:07.270 [debug] getDataDirsImpl, Class name = nh, completed in 44ms, has a truthy return value, Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: "/bin/python"
+01:41:07.768 [debug] IPyWidgetMessageDispatcher.initialize
+01:41:07.768 [debug] Web view is ready to receive widget messages
+01:41:07.845 [debug] Widget Message: Received IPyWidgets_kernelOptions in ScriptManager
+01:41:07.853 [debug] Widget Message: Received IPyWidgetMessages.IPyWidgets_kernelOptions
+01:41:07.853 [debug] IPyWidgetMessageDispatcher.initialize
+01:41:07.853 [debug] IPyWidgetMessageDispatcher.initialize
+01:41:07.854 [debug] Widget Message: data-base-url set to https://file%2B.vscode-resource.vscode-cdn.net~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/scripts/5025d6a5c4df71f4502a853d7f80a37d8be0228745293b0e528bc4850f83a169/jupyter
+01:41:07.855 [debug] Widget Message: Received IPyWidgets_kernelOptions in ScriptManager
+01:41:07.855 [debug] Widget Message: Received IPyWidgetMessages.IPyWidgets_kernelOptions
+01:41:07.855 [debug] Widget Message: data-base-url set to https://file%2B.vscode-resource.vscode-cdn.net~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/scripts/5025d6a5c4df71f4502a853d7f80a37d8be0228745293b0e528bc4850f83a169/jupyter
+01:41:19.447 [info] Shutting down notebooks for 362f8378-6d35-4327-bf87-1aee797faf85
+01:41:19.447 [info] Disposing HostJupyterExecution 29ec1c93-e3c1-4b9c-8fb8-f52b6b36bfc2
+01:41:19.447 [debug] Disposing super HostJupyterExecution 29ec1c93-e3c1-4b9c-8fb8-f52b6b36bfc2
+01:41:19.448 [info] Dispose Kernel '~/study/python/lab/lab.ipynb' associated with '~/study/python/lab/lab.ipynb'
+01:41:19.451 [debug] Shutdown session - current session, called from Error: 
+	at ov.shutdownImplementation (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:17:168193)
+	at ov.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:17:162652)
+	at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:17:224370
+	at jm.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:17:224579)
+	at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:1770348
+	at Array.map (<anonymous>)
+	at va.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:1770338)
+	at Module.FE (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:590356)
+	at v.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:10974)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at v.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at v.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:34439)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:30578)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+01:41:19.452 [debug] shutdownSession bb865698-1697-4c50-8ab9-613d2ea28852, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher - start
+01:41:19.452 [debug] Session can be shutdown .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+01:41:19.452 [info] Dispose Kernel process 43975.
+01:41:19.462 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/study/python/lab/lab.ipynb
+01:41:19.463 [info] Disposing HostJupyterExecution 29ec1c93-e3c1-4b9c-8fb8-f52b6b36bfc2
+01:41:19.463 [debug] Finished disposing HostJupyterExecution  29ec1c93-e3c1-4b9c-8fb8-f52b6b36bfc2
+01:41:19.464 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher and documents file://~/study/python/lab/lab.ipynb
+01:41:19.465 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+01:41:19.465 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+01:41:19.465 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+01:41:19.465 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+01:41:19.465 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+01:41:19.465 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+01:41:19.465 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+01:41:19.467 [debug] Cleaning up server cache 29ec1c93-e3c1-4b9c-8fb8-f52b6b36bfc2
+01:41:19.469 [debug] Shutdown session - current session, called from Error: 
+	at ov.shutdownImplementation (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:17:168193)
+	at ov.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:17:162652)
+	at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:121414
+	at Array.map (<anonymous>)
+	at av.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:121404)
+	at async Promise.all (index 0)
+	at async va.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:1770360)
+	at async Promise.all (index 12)
+	at async v.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9171)
+01:41:19.469 [debug] shutdownSession bb865698-1697-4c50-8ab9-613d2ea28852, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher - start
+01:41:19.469 [debug] Session can be shutdown .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+01:41:19.470 [debug] Finished disposing HostJupyterExecution  29ec1c93-e3c1-4b9c-8fb8-f52b6b36bfc2
+01:41:19.476 [debug] KernelProcess Exit Exit - undefined ~/.local/lib/python3.10/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+~/.local/lib/python3.10/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '45cab5c5-938c-4101-878e-fe7101ee9624' instead of 'b"45cab5c5-938c-4101-878e-fe7101ee9624"'.
+  warn(
+
+01:41:19.479 [debug] Disposed Kernel process 43975.
+01:41:19.479 [debug] shutdownSession bb865698-1697-4c50-8ab9-613d2ea28852, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher - shutdown complete
+01:41:19.479 [debug] shutdownSession bb865698-1697-4c50-8ab9-613d2ea28852, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher - shutdown complete
+01:41:19.479 [debug] Shutdown session - get restart session
+01:41:19.480 [debug] Shutdown session -- complete
+01:41:19.480 [debug] Shutdown session - get restart session
+01:41:19.480 [debug] Shutdown session -- complete
+01:41:19.481 [warn] Failed to delete connection file ~/.local/share/jupyter/runtime/kernel-v2-43841xdavG7y9QFN5.json for pid 43975 [Canceled (FileSystemError): Canceled
+	at Zt.c (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:100:27273)
+	at Object.stat (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:100:25374)
+	at async _d.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:17:18527)
+	at async ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:89152] {
+  code: 'Unknown'
+}

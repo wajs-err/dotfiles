@@ -1,0 +1,63 @@
+2023-05-07 22:11:26.802 [info] Extension host with pid 579562 started
+2023-05-07 22:11:26.802 [info] Skipping acquiring lock for /home/_wajs_err_/.config/Code - OSS/User/workspaceStorage/cec6ba7760a7f9676361697aaa26a39e.
+2023-05-07 22:11:26.845 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2023-05-07 22:11:26.861 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-07 22:11:26.863 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: true, activationEvent: '*'
+2023-05-07 22:11:26.988 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-07 22:11:27.012 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-07 22:11:27.115 [info] Eager extensions activated
+2023-05-07 22:11:27.132 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-05-07 22:11:27.237 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-05-07 22:11:27.238 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-05-07 22:11:27.240 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+2023-05-07 22:11:27.254 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-07 22:11:27.255 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-07 22:11:27.663 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-05-07 22:11:27.750 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-07 22:11:27.779 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-07 22:11:27.794 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-07 22:11:28.630 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44801)
+	at ga.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:45809)
+	at new rC (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:469102)
+	at f (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:544291)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:546181
+	at t.resolveInstance (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:546208)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:549240
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:549577
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548900
+	at v (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548932)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548794
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548728
+	at Array.map (<anonymous>)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548700
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:545539
+	at Array.reduce (<anonymous>)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:545511
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:545838
+	at t.resolveInstance (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:546208)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:549240
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:549577
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548900
+	at v (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548932)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:548794
+	at t.resolve (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:550764)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:519737
+	at e._get (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:519106)
+	at e._getButThrowIfAsync (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:519166)
+	at e.get (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:2:514861)
+	at Gy.get (/home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:224551)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:589031
+2023-05-07 22:11:29.360 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44801)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:26559)
+	at w.activate (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:800768)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2376)
+2023-05-07 22:11:58.702 [info] Extension host terminating: renderer closed the MessagePort
+2023-05-07 22:11:58.718 [info] Extension host with pid 579562 exiting with code 0

@@ -1,0 +1,50 @@
+2023-05-07 22:11:28.055 [info] Test server listening.
+2023-05-07 22:11:28.055 [info] > conda info --json
+2023-05-07 22:11:28.055 [info] Python interpreter path: /bin/python
+2023-05-07 22:11:28.061 [info] Found: /bin/python --> /bin/python3.10
+2023-05-07 22:11:28.061 [info] Found: /bin/python3 --> /bin/python3.10
+2023-05-07 22:11:28.061 [info] Found: /bin/python3.10 --> /bin/python3.10
+2023-05-07 22:11:28.084 [info] Found: /sbin/python --> /sbin/python3.10
+2023-05-07 22:11:28.084 [info] Found: /sbin/python3 --> /sbin/python3.10
+2023-05-07 22:11:28.085 [info] Found: /sbin/python3.10 --> /sbin/python3.10
+2023-05-07 22:11:28.092 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2023-05-07 22:11:28.092 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2023-05-07 22:11:28.092 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2023-05-07 22:11:28.123 [info] Found: /usr/sbin/python --> /usr/sbin/python3.10
+2023-05-07 22:11:28.123 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.10
+2023-05-07 22:11:28.123 [info] Found: /usr/sbin/python3.10 --> /usr/sbin/python3.10
+2023-05-07 22:11:28.147 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-07 22:11:28.174 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-07 22:11:28.234 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-07 22:11:28.259 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-07 22:11:28.355 [error] [
+  'Failed to activate a workspace, Class name = g, completed in 455ms, has a falsy return value, Arg 1: <Uri:/home/_wajs_err_/study/python/lab>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44801)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:26559)
+  	at w.activate (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:800768)
+  	at /home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at g.activateWorkspace (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2376)]
+]
+2023-05-07 22:11:28.356 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44801)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:26559)
+	at w.activate (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:800768)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2376)]
+2023-05-07 22:11:28.356 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44801)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:26559)
+	at w.activate (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:800768)
+	at /home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at g.activateWorkspace (/home/_wajs_err_/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/out/client/extension.js:2:2376)]
+2023-05-07 22:11:29.266 [info] Starting Jedi language server for lab.

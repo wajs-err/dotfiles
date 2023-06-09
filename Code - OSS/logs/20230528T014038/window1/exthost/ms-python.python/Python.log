@@ -1,0 +1,40 @@
+2023-05-28 01:40:43.660 [info] Test server listening.
+2023-05-28 01:40:43.660 [info] > conda info --json
+2023-05-28 01:40:43.660 [info] Python interpreter path: /bin/python
+2023-05-28 01:40:43.664 [info] Found: /bin/python --> /bin/python3.10
+2023-05-28 01:40:43.666 [info] Found: /bin/python3 --> /bin/python3.10
+2023-05-28 01:40:43.668 [info] Found: /bin/python3.10 --> /bin/python3.10
+2023-05-28 01:40:43.717 [info] Found: /sbin/python --> /sbin/python3.10
+2023-05-28 01:40:43.718 [info] Found: /sbin/python3 --> /sbin/python3.10
+2023-05-28 01:40:43.718 [info] Found: /sbin/python3.10 --> /sbin/python3.10
+2023-05-28 01:40:43.728 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2023-05-28 01:40:43.728 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2023-05-28 01:40:43.728 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2023-05-28 01:40:43.795 [info] Found: /usr/sbin/python --> /usr/sbin/python3.10
+2023-05-28 01:40:43.796 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.10
+2023-05-28 01:40:43.796 [info] Found: /usr/sbin/python3.10 --> /usr/sbin/python3.10
+2023-05-28 01:40:43.831 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:40:43.861 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:40:43.910 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:40:43.943 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:40:45.410 [info] Starting Jedi language server for lab.
+2023-05-28 01:41:05.431 [info] Test server listening.
+2023-05-28 01:41:05.431 [info] > conda info --json
+2023-05-28 01:41:05.431 [info] Python interpreter path: /bin/python
+2023-05-28 01:41:05.443 [info] Found: /bin/python --> /bin/python3.10
+2023-05-28 01:41:05.508 [info] Found: /bin/python3 --> /bin/python3.10
+2023-05-28 01:41:05.525 [info] Found: /bin/python3.10 --> /bin/python3.10
+2023-05-28 01:41:05.564 [info] Found: /sbin/python --> /sbin/python3.10
+2023-05-28 01:41:05.564 [info] Found: /sbin/python3 --> /sbin/python3.10
+2023-05-28 01:41:05.564 [info] Found: /sbin/python3.10 --> /sbin/python3.10
+2023-05-28 01:41:05.572 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2023-05-28 01:41:05.572 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2023-05-28 01:41:05.572 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2023-05-28 01:41:05.602 [info] Found: /usr/sbin/python --> /usr/sbin/python3.10
+2023-05-28 01:41:05.602 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.10
+2023-05-28 01:41:05.602 [info] Found: /usr/sbin/python3.10 --> /usr/sbin/python3.10
+2023-05-28 01:41:05.624 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:41:05.642 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:41:05.684 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:41:05.702 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-05-28 01:41:06.884 [info] Starting Jedi language server for default.
