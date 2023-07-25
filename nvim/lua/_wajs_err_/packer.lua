@@ -3,7 +3,7 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
-    use({
+    use {
         'EdenEast/nightfox.nvim',
         config = function()
             require('nightfox').setup({
@@ -18,7 +18,9 @@ return require('packer').startup(function(use)
             })
             vim.cmd('colorscheme carbonfox')
         end
-    })
+    }
+
+    -- some unused colorschemes:
 
     -- use({
     --     'projekt0n/github-nvim-theme', tag = 'v0.0.7',
@@ -74,7 +76,10 @@ return require('packer').startup(function(use)
         requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
     }
 
-    use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        { run = ':TSUpdate' }
+    }
 
     use {
         'VonHeikemen/lsp-zero.nvim',
@@ -123,28 +128,19 @@ return require('packer').startup(function(use)
         end
     } -- probably useless
 
+    -- use {
+    --     'meatballs/notebook.nvim',
+    --     config = function()
+    --         require('notebook').setup()
+    --     end
+    -- }
+
     use {
-        'meatballs/notebook.nvim',
+        'windwp/nvim-autopairs',
         config = function()
-            require('notebook').setup()
+            require('nvim-autopairs').setup()
         end
     }
-
-    -- use {
-    --     'edluffy/hologram.nvim',
-    --     config = function()
-    --         require('hologram').setup{
-    --             auto_display = true
-    --         }
-    --     end
-    -- }
-
-    -- use {
-    --     'windwp/nvim-autopairs',
-    --     config = function()
-    --         require('nvim-autopairs').setup()
-    --     end
-    -- }
 
     use {
         'akinsho/toggleterm.nvim',
@@ -160,6 +156,13 @@ return require('packer').startup(function(use)
                     winblend = 0,
                 }
             })
+        end
+    }
+
+    use {
+        'folke/trouble.nvim',
+        config = function()
+            require('trouble').setup()
         end
     }
 

@@ -14,15 +14,4 @@ lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({buffer = bufnr})
 end)
 
-require('lspconfig').jedi_language_server.setup({
-    -- root_dir = function()
-    --     return '/home/_wajs_err_'
-    -- end,
-    init_options = {
-        workspace = {
-            extraPaths = {'/home/_wajs_err_/.local/bin'}
-        }
-    }
-})
-
 lsp.setup()

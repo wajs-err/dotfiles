@@ -1,18 +1,31 @@
-vim.o.expandtab = true
-vim.o.smarttab = true
-vim.o.smartindent = true
-vim.o.tabstop = 8
-vim.o.softtabstop = 0
-vim.o.shiftwidth = 4
+local o = vim.o
+local opt = vim.opt
 
-vim.o.wrap = false
+o.expandtab = true
+o.smarttab = true
+o.smartindent = true
+o.tabstop = 8
+o.softtabstop = 0
+o.shiftwidth = 4
 
-vim.o.cmdheight = 0
+o.wrap = false
 
-vim.o.scrolloff = 8
+o.cmdheight = 0
 
-vim.o.whichwrap = "b,s,<,>,[,]"
+o.scrolloff = 8
 
-vim.o.signcolumn = "no"
+o.whichwrap = "b,s,<,>,[,]"
 
-vim.o.guicursor = "n-v-c-i:ver25"
+o.signcolumn = "no"
+
+o.guicursor = "n-v-c-i:ver25"
+
+opt.clipboard = "unnamedplus"
+opt.ignorecase = true
+opt.smartcase = true
+-- opt.cursorline = true
+
+opt.splitright = true
+
+opt.spelllang = { "en_us", "ru" }
+opt.spell = true

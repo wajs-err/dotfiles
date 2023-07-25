@@ -121,16 +121,16 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nightfox.nvim"] = {
-    config = { "\27LJ\2\nÍ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\2\16transparent\2\20terminal_colors\1\nsetup\rnightfox\frequire\0" },
+    config = { "\27LJ\2\nÍ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\2\20terminal_colors\1\16transparent\2\nsetup\rnightfox\frequire\0" },
     loaded = true,
     path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
-  ["notebook.nvim"] = {
-    config = { "\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rnotebook\frequire\0" },
+  ["nvim-autopairs"] = {
+    config = { "\27LJ\2\n<\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
-    path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/notebook.nvim",
-    url = "https://github.com/meatballs/notebook.nvim"
+    path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -178,26 +178,36 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["toggleterm.nvim"] = {
-    config = { "\27LJ\2\n²\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\2\vborder\vcurved\rwinblend\3\0\1\0\2\14direction\nfloat\17open_mapping\n<C-\\>\nsetup\15toggleterm\frequireµæÌ™\19™³¦ÿ\3\0" },
+    config = { "\27LJ\2\n²\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\2\rwinblend\3\0\vborder\vcurved\1\0\2\17open_mapping\n<C-\\>\14direction\nfloat\nsetup\15toggleterm\frequireµæÌ™\19™³¦ÿ\3\0" },
     loaded = true,
     path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["trouble.nvim"] = {
+    config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ftrouble\frequire\0" },
+    loaded = true,
+    path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: toggleterm.nvim
-time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\n²\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\2\vborder\vcurved\rwinblend\3\0\1\0\2\14direction\nfloat\17open_mapping\n<C-\\>\nsetup\15toggleterm\frequireµæÌ™\19™³¦ÿ\3\0", "config", "toggleterm.nvim")
-time([[Config for toggleterm.nvim]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
 -- Config for: nightfox.nvim
 time([[Config for nightfox.nvim]], true)
-try_loadstring("\27LJ\2\nÍ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\2\16transparent\2\20terminal_colors\1\nsetup\rnightfox\frequire\0", "config", "nightfox.nvim")
+try_loadstring("\27LJ\2\nÍ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\2\20terminal_colors\1\16transparent\2\nsetup\rnightfox\frequire\0", "config", "nightfox.nvim")
 time([[Config for nightfox.nvim]], false)
--- Config for: notebook.nvim
-time([[Config for notebook.nvim]], true)
-try_loadstring("\27LJ\2\n6\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\rnotebook\frequire\0", "config", "notebook.nvim")
-time([[Config for notebook.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+try_loadstring("\27LJ\2\n²\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\2\rwinblend\3\0\vborder\vcurved\1\0\2\17open_mapping\n<C-\\>\14direction\nfloat\nsetup\15toggleterm\frequireµæÌ™\19™³¦ÿ\3\0", "config", "toggleterm.nvim")
+time([[Config for toggleterm.nvim]], false)
 -- Config for: glow.nvim
 time([[Config for glow.nvim]], true)
 try_loadstring("\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tglow\frequire\0", "config", "glow.nvim")

@@ -3,12 +3,12 @@ require('Comment').setup({
     sticky = true,
     ignore = nil,
     toggler = {
-        line = '<C-_>',
-        block = '<C-b>'
+        line = '<leader>c',
+        block = '<leader>b'
     },
     opleader = {
-        line = nil,
-        block = nil
+        line = '<leader>c',
+        block = '<leader>b'
     },
     extra = {
         above = nil,
@@ -21,5 +21,11 @@ require('Comment').setup({
         extended = false,
     },
     pre_hook = nil,
-    post_hook = nil,
+    post_hook = function(ctx)
+        local r = unpack(vim.api.nvim_win_get_cursor(0))
+        local rcnt = vim.api.nvim_buf_line_count(0)
+        if rcnt > r then
+            vim.api.nvim_win_set_cursor(0, {r+1,0})
+        end
+    end,
 })
