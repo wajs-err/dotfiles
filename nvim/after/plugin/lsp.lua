@@ -14,4 +14,16 @@ lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({buffer = bufnr})
 end)
 
+require("lspconfig").clangd.setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+    cmd = {
+        "/usr/bin/clangd",
+        "--enable-config",
+        "--header-insertion=never",
+        "--function-arg-placeholders=0"
+    }
+}
+
 lsp.setup()
+
