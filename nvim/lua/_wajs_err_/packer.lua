@@ -2,9 +2,9 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
-
     use {
         'EdenEast/nightfox.nvim',
+
         config = function()
             require('nightfox').setup({
                 options = {
@@ -67,7 +67,7 @@ return require('packer').startup(function(use)
     -- use 'notken12/base46-colors'
 
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.4',
+        'nvim-telescope/telescope.nvim', tag = '0.1.1',
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
@@ -151,8 +151,8 @@ return require('packer').startup(function(use)
                 direction = 'float',
                 float_opts = {
                     border = 'curved',
-                    width = math.floor(vim.api.nvim_win_get_width(0) * 0.8),
-                    height = math.floor(vim.api.nvim_win_get_height(0) * 0.8),
+                    width = math.floor(vim.api.nvim_win_get_width(0) * 0.9),
+                    height = math.floor(vim.api.nvim_win_get_height(0) * 0.9),
                     winblend = 0,
                 }
             })
@@ -160,10 +160,43 @@ return require('packer').startup(function(use)
     }
 
     use {
-        'folke/trouble.nvim',
+        'p00f/clangd_extensions.nvim',
         config = function()
-            require('trouble').setup()
+            require("clangd_extensions").setup({
+                ast = {
+                    role_icons = {
+                        type = "🄣",
+                        declaration = "🄓",
+                        expression = "🄔",
+                        statement = ";",
+                        specifier = "🄢",
+                        ["template argument"] = "🆃",
+                    },
+                    kind_icons = {
+                        Compound = "🄲",
+                        Recovery = "🅁",
+                        TranslationUnit = "🅄",
+                        PackExpansion = "🄿",
+                        TemplateTypeParm = "🅃",
+                        TemplateTemplateParm = "🅃",
+                        TemplateParamObject = "🅃",
+                    },
+                    highlights = {
+                        detail = "Comment",
+                    },
+                },
+                symbol_info = {
+                    border = "none",
+                },
+            })
         end
     }
+
+    -- use {
+    --     'fole/trouble.nvim',
+    --     config = function()
+    --         require('trouble').setup()
+    --     end
+    -- }
 
 end)

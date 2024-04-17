@@ -6,13 +6,13 @@ o.smarttab = true
 o.smartindent = true
 o.tabstop = 8
 o.softtabstop = 0
-o.shiftwidth = 4
+o.shiftwidth = 2
 
 o.wrap = false
 
 o.cmdheight = 0
 
-o.scrolloff = 8
+o.scrolloff = 0
 
 o.whichwrap = "b,s,<,>,[,]"
 
@@ -27,5 +27,8 @@ opt.smartcase = true
 
 opt.splitright = true
 
-opt.spelllang = { "en_us", "ru" }
+-- opt.spelllang = { "en_us", "ru" }
 opt.spell = true
+
+opt.number = true
+opt.relativenumber = true
