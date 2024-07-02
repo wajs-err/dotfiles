@@ -1,8 +1,0 @@
-2024/05/15-02:52:52.185 4 Creating DB /home/_wajs_err_/.config/chromium/Default/Local Storage/leveldb since it was missing.
-2024/05/15-02:52:52.259 4 Reusing MANIFEST /home/_wajs_err_/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2024/05/15-02:53:27.308 4 Level-0 table #5: started
-2024/05/15-02:53:27.322 4 Level-0 table #5: 51138 bytes OK
-2024/05/15-02:53:27.334 4 Delete type=0 #3
-2024/05/15-02:56:45.742 6 Level-0 table #7: started
-2024/05/15-02:56:45.752 6 Level-0 table #7: 49659 bytes OK
-2024/05/15-02:56:45.763 6 Delete type=0 #4
