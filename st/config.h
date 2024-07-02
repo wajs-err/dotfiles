@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Jetbrains Mono:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Jetbrains Mono:pixelsize=22:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -73,7 +73,7 @@ static unsigned int cursorthickness = 2;
  *    Bold affects lines thickness if boxdraw_bold is not 0. Italic is ignored.
  * 0: disable (render all U25XX glyphs normally from the font).
  */
-const int boxdraw = 0;
+const int boxdraw = 1;
 const int boxdraw_bold = 0;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
@@ -122,14 +122,14 @@ static const char *colorname[] = {
 	"gray90",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#696969",     // black
+	"red",         // red 
+	"green",       // green
+	"yellow",      // yellow
+	"#5c5cff",     // blue
+	"magenta",     // magenta
+	"#33b1ff",     // cyan
+	"white",       // white
 
 	[255] = 0,
 

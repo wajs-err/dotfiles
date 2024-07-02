@@ -1,0 +1,23 @@
+2023-12-17 22:02:11.486 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testMessageContextValue' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-17 22:02:11.497 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'envShellEvent' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-17 22:02:11.497 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-17 22:02:11.497 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'terminalContextMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-17 22:02:11.497 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatSlashCommands' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-17 22:02:11.856 [info] Started local extension host with pid 303496.
+2023-12-17 22:02:12.451 [error] FAILED to destory notebook Unable to read file '/home/_wajs_err_/study/optimization/hw/8/nn.ipynb' (Error: Unable to resolve nonexistent file '/home/_wajs_err_/study/optimization/hw/8/nn.ipynb')
+2023-12-17 22:02:12.451 [warning] NotebookEditorWidget#setInput failed Unable to read file '/home/_wajs_err_/study/optimization/hw/8/nn.ipynb' (Error: Unable to resolve nonexistent file '/home/_wajs_err_/study/optimization/hw/8/nn.ipynb')
+2023-12-17 22:02:12.451 [error] Error: Unable to read file '/home/_wajs_err_/study/optimization/hw/8/nn.ipynb' (Error: Unable to resolve nonexistent file '/home/_wajs_err_/study/optimization/hw/8/nn.ipynb')
+    at n.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:645:18891)
+    at n.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:645:18686)
+    at async m.Z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2169:53620)
+    at async $.lb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2169:65401)
+    at async i.load (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:144218)
+    at async u.b (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2169:72207)
+    at async s.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2169:74386)
+    at async d.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:707)
+    at async W.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2714:14645)
+    at async b.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2146:23046)
+    at async b.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2146:21637)
+    at async b.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2146:20603)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2275:23005
+2023-12-17 22:02:15.896 [info] [perf] Render performance baseline is 45ms

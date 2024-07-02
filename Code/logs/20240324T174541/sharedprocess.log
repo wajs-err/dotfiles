@@ -1,0 +1,13 @@
+2024-03-24 17:45:46.303 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4960)
+    at E.t (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at y.value (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.fe (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30382)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-03-24 17:45:47.089 [info] Deleted uninstalled extension from disk llvm-vs-code-extensions.vscode-clangd /home/_wajs_err_/.vscode/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.26-universal
+2024-03-24 17:45:47.372 [info] Deleted uninstalled extension from disk ms-python.python /home/_wajs_err_/.vscode/extensions/ms-python.python-2023.20.0-universal

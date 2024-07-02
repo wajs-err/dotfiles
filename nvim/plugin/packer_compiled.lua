@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?.lua;/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?/init.lua;/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?.lua;/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1700008891/lib/lua/5.1/?.so"
+local package_path_str = "/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1713773202/share/lua/5.1/?.lua;/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1713773202/share/lua/5.1/?/init.lua;/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1713773202/lib/luarocks/rocks-5.1/?.lua;/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1713773202/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/_wajs_err_/.cache/nvim/packer_hererocks/2.1.1713773202/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -83,6 +83,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["clangd_extensions.nvim"] = {
+    config = { "\27LJ\2\nÈ\3\0\0\5\0\14\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\n\0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\3=\3\v\0025\3\f\0=\3\r\2B\0\2\1K\0\1\0\16symbol_info\1\0\1\vborder\tnone\bast\1\0\2\bast\0\16symbol_info\0\15highlights\1\0\1\vdetail\fComment\15kind_icons\1\0\a\20TranslationUnit\tüÖÑ\24TemplateParamObject\tüÖÉ\rCompound\tüÑ≤\25TemplateTemplateParm\tüÖÉ\18PackExpansion\tüÑø\21TemplateTypeParm\tüÖÉ\rRecovery\tüÖÅ\15role_icons\1\0\3\15kind_icons\0\15highlights\0\15role_icons\0\1\0\6\16declaration\tüÑì\14statement\6;\15expression\tüÑî\ttype\tüÑ£\22template argument\tüÜÉ\14specifier\tüÑ¢\nsetup\22clangd_extensions\frequire\0" },
+    loaded = true,
+    path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/clangd_extensions.nvim",
+    url = "https://github.com/p00f/clangd_extensions.nvim"
   },
   ["cmp-nvim-lsp"] = {
     loaded = true,
@@ -121,7 +127,7 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nightfox.nvim"] = {
-    config = { "\27LJ\2\nÕ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\2\20terminal_colors\1\16transparent\2\nsetup\rnightfox\frequire\0" },
+    config = { "\27LJ\2\nﬁ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\1\foptions\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\3\16transparent\2\20terminal_colors\1\vstyles\0\nsetup\rnightfox\frequire\0" },
     loaded = true,
     path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
@@ -178,40 +184,34 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["toggleterm.nvim"] = {
-    config = { "\27LJ\2\n≤\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\2\rwinblend\3\0\vborder\vcurved\1\0\2\17open_mapping\n<C-\\>\14direction\nfloat\nsetup\15toggleterm\frequireµÊÃô\19ô≥¶ˇ\3\0" },
+    config = { "\27LJ\2\nÕ\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\4\vborder\vcurved\rwinblend\3\0\vheight\0\nwidth\0\1\0\3\15float_opts\0\17open_mapping\n<C-\\>\14direction\nfloat\nsetup\15toggleterm\frequireõ≥ÊÃ\25Ãô≥ˇ\3\0" },
     loaded = true,
     path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["trouble.nvim"] = {
-    config = { "\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ftrouble\frequire\0" },
-    loaded = true,
-    path = "/home/_wajs_err_/.local/share/nvim/site/pack/packer/start/trouble.nvim",
-    url = "https://github.com/folke/trouble.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
--- Config for: glow.nvim
-time([[Config for glow.nvim]], true)
-try_loadstring("\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tglow\frequire\0", "config", "glow.nvim")
-time([[Config for glow.nvim]], false)
 -- Config for: toggleterm.nvim
 time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\n≤\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\2\rwinblend\3\0\vborder\vcurved\1\0\2\17open_mapping\n<C-\\>\14direction\nfloat\nsetup\15toggleterm\frequireµÊÃô\19ô≥¶ˇ\3\0", "config", "toggleterm.nvim")
+try_loadstring("\27LJ\2\nÕ\2\0\0\t\0\14\1\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0006\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\t\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\n\0036\4\5\0009\4\6\0046\6\a\0009\6\b\0069\6\v\6)\b\0\0B\6\2\2\24\6\0\6B\4\2\2=\4\f\3=\3\r\2B\0\2\1K\0\1\0\15float_opts\vheight\24nvim_win_get_height\nwidth\23nvim_win_get_width\bapi\bvim\nfloor\tmath\1\0\4\vborder\vcurved\rwinblend\3\0\vheight\0\nwidth\0\1\0\3\15float_opts\0\17open_mapping\n<C-\\>\14direction\nfloat\nsetup\15toggleterm\frequireõ≥ÊÃ\25Ãô≥ˇ\3\0", "config", "toggleterm.nvim")
 time([[Config for toggleterm.nvim]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
 time([[Config for nvim-autopairs]], false)
+-- Config for: clangd_extensions.nvim
+time([[Config for clangd_extensions.nvim]], true)
+try_loadstring("\27LJ\2\nÈ\3\0\0\5\0\14\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\n\0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\3=\3\v\0025\3\f\0=\3\r\2B\0\2\1K\0\1\0\16symbol_info\1\0\1\vborder\tnone\bast\1\0\2\bast\0\16symbol_info\0\15highlights\1\0\1\vdetail\fComment\15kind_icons\1\0\a\20TranslationUnit\tüÖÑ\24TemplateParamObject\tüÖÉ\rCompound\tüÑ≤\25TemplateTemplateParm\tüÖÉ\18PackExpansion\tüÑø\21TemplateTypeParm\tüÖÉ\rRecovery\tüÖÅ\15role_icons\1\0\3\15kind_icons\0\15highlights\0\15role_icons\0\1\0\6\16declaration\tüÑì\14statement\6;\15expression\tüÑî\ttype\tüÑ£\22template argument\tüÜÉ\14specifier\tüÑ¢\nsetup\22clangd_extensions\frequire\0", "config", "clangd_extensions.nvim")
+time([[Config for clangd_extensions.nvim]], false)
 -- Config for: nightfox.nvim
 time([[Config for nightfox.nvim]], true)
-try_loadstring("\27LJ\2\nÕ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\2\20terminal_colors\1\16transparent\2\nsetup\rnightfox\frequire\0", "config", "nightfox.nvim")
+try_loadstring("\27LJ\2\nﬁ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\3\0005\4\4\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\26colorscheme carbonfox\bcmd\bvim\foptions\1\0\1\foptions\0\vstyles\1\0\2\rkeywords\tbold\14functions\vitalic\1\0\3\16transparent\2\20terminal_colors\1\vstyles\0\nsetup\rnightfox\frequire\0", "config", "nightfox.nvim")
 time([[Config for nightfox.nvim]], false)
+-- Config for: glow.nvim
+time([[Config for glow.nvim]], true)
+try_loadstring("\27LJ\2\n2\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\tglow\frequire\0", "config", "glow.nvim")
+time([[Config for glow.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

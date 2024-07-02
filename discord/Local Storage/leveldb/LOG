@@ -1,0 +1,17 @@
+2023/12/09-22:31:39.466 a194e Reusing MANIFEST /home/_wajs_err_/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/12/09-22:31:39.466 a194e Recovering log #64
+2023/12/09-22:31:39.466 a194e Reusing old log /home/_wajs_err_/.config/discord/Local Storage/leveldb/000064.log 
+2023/12/09-22:35:32.785 a1950 Level-0 table #68: started
+2023/12/09-22:35:32.834 a1950 Level-0 table #68: 2721074 bytes OK
+2023/12/09-22:35:32.844 a1950 Delete type=0 #64
+2023/12/09-22:35:32.846 a1950 Compacting 4@0 + 2@1 files
+2023/12/09-22:35:32.910 a1950 Generated table #69@0: 28 keys, 2712021 bytes
+2023/12/09-22:35:32.937 a1950 Generated table #70@0: 67 keys, 1723645 bytes
+2023/12/09-22:35:32.937 a1950 Compacted 4@0 + 2@1 files => 4435666 bytes
+2023/12/09-22:35:32.946 a1950 compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/12/09-22:35:32.947 a1950 Delete type=2 #57
+2023/12/09-22:35:32.947 a1950 Delete type=2 #60
+2023/12/09-22:35:32.947 a1950 Delete type=2 #65
+2023/12/09-22:35:32.947 a1950 Delete type=2 #56
+2023/12/09-22:35:32.947 a1950 Delete type=2 #68
+2023/12/09-22:35:32.947 a1950 Delete type=2 #63

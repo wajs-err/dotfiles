@@ -1,0 +1,25 @@
+2024-03-23 20:51:46.143 [error] Not allowed to refresh environments in an untrusted workspace
+2024-03-23 20:51:46.143 [info] Test server listening.
+2024-03-23 20:51:46.194 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2024-03-23 20:51:46.265 [info] Only Pylance is supported in untrusted workspaces, setting language server to None.
+2024-03-23 20:51:46.265 [info] Starting Jedi language server for default.
+2024-03-23 20:51:53.279 [info] Found: /bin/python --> /bin/python3.11
+2024-03-23 20:51:53.279 [info] Found: /bin/python3 --> /bin/python3.11
+2024-03-23 20:51:53.280 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-03-23 20:51:53.314 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2024-03-23 20:51:53.326 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2024-03-23 20:51:53.333 [info] Found: /sbin/python --> /sbin/python3.11
+2024-03-23 20:51:53.333 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-03-23 20:51:53.333 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-03-23 20:51:53.340 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-03-23 20:51:53.340 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-03-23 20:51:53.340 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-03-23 20:51:53.369 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0-universal/pythonFiles/interpreterInfo.py
+2024-03-23 20:51:53.396 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-03-23 20:51:53.396 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-03-23 20:51:53.396 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-03-23 20:51:53.540 [info] Test server listening.
+2024-03-23 20:51:53.552 [info] Python interpreter path: /bin/python
+2024-03-23 20:51:53.626 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-23 20:51:53.626 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-23 20:51:54.486 [info] Starting Jedi language server for default.

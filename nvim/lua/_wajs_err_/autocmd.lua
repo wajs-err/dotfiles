@@ -1,6 +1,6 @@
 vim.api.nvim_create_autocmd("BufWritePost", {
-    pattern = "main.tex",
+    pattern = "*.tex",
     callback = function()
-        vim.fn.jobstart({"pdflatex", "main.tex"})
+        vim.fn.jobstart({"pdflatex", vim.fn.expand('%')})
     end
 })

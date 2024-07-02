@@ -1,118 +1,289 @@
-sw_volume: 98
-audio_device_state:1:mpd alsamixer-output
+sw_volume: 90
+audio_device_state:1:mpd
 audio_device_state:1:my_fifo
 state: pause
-current: 71
-time: 2.668000
+current: 89
+time: 64.703000
 random: 1
 repeat: 1
 single: 1
 consume: 1
-crossfade: 5
+crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Pikachu.mp3
-1:Red Bottom Sky.mp3
-2:Taipei.mp3
-3:Smirnoff Ice.mp3
-4:Hurt [Prod. Suicideyear].mp3
-5:Afghanistan (Outro).mp3
-6:Ghosttown.mp3
-7:Monster.mp3
-8:Yoshi City.mp3
-9:God Only Knows.mp3
-10:Highway Patrol.mp3
-11:Hocus Pocus.mp3
-12:Immortal [Yung Lean].mp3
-13:Miami Ultras.mp3
-14:Chandelier.mp3
-15:Creep Creeps.mp3
-16:Crystal City.mp3
-17:Hennessy & Sailor Moon.mp3
-18:Ginseng Strip 2002.mp3
-19:Oreomilkshake.mp3
-20:Opium Dream.mp3
-21:Red Velvet.mp3
-22:Red Bottom Sky.mp3
-23:Smirnoff Ice.mp3
-24:Hurt [Prod. Suicideyear].mp3
-25:Lightsaber ⧸⧸ Saviour [Prod. Yung Sherman].mp3
-26:Yoshi City.mp3
-27:AF1s.mp3
-28:Eye Contact.mp3
-29:Fantasy.mp3
-30:Highway Patrol.mp3
-31:Hocus Pocus.mp3
-32:Shawty U Know What It Do.mp3
-33:November.mp3
-34:Fukk Sleep.mp3
-35:Hun43rd.mp3
-36:Kids Turned Out Fine.mp3
-37:OG Beeper.mp3
-38:Purity.mp3
-39:Tony Tone.mp3
-40:残酷な天使のテーゼ.mp3
-41:不可思議のカルテ.mp3
-42:Reminder (Remix).mp3
-43:Mask Off.mp3
-44:$outh $ide $uicide.mp3
-45:Do You Believe In God?.mp3
-46:My Flaws Burn Through My Skin Like Demonic Flames from Hell.mp3
-47:Where's Your God?.mp3
-48:Kill Yourself (Part III).mp3
-49:Power is Power.mp3
-50:Hair Down.mp3
-51:Plug Addicts.mp3
-52:Caterpillar.mp3
-53:New Freezer.mp3
-54:Pull Up.mp3
-55:Please Forgive.mp3
-56:Ghostface Killers.mp3
-57:Bloody Waters.mp3
-58:Money In The Grave.mp3
-59:Anti-Matter.mp3
-60:The Way Life Goes.mp3
-61:Everybody.mp3
-62:Sin.mp3
-63:HOT WIND BLOWS (MF DOOM Version).mp3
-64:アイドル.mp3
-65:Life Is Short.mp3
-66:King To A God.mp3
-67:POPSTAR.mp3
-68:Cudi Montage.mp3
-69:0 To 100 ⧸ The Catch Up.mp3
-70:Redbone.mp3
-71:Lord Pretty Flacko Jodye 2 (LPFJ2).mp3
-72:不可思議のカルテ.mp3
-73:Nights.mp3
-74:Ivy.mp3
-75:Nikes.mp3
-76:Solo (Reprise).mp3
-77:Pink Matter.mp3
-78:Pyramids.mp3
-79:Super Rich Kids.mp3
-80:Thinkin Bout You.mp3
-81:In My Room.mp3
-82:Lens.mp3
-83:Lens (Travis Scott Version).mp3
-84:Hunnid On The Drop.mp3
-85:1.5.mp3
-86:a lot.mp3
-87:all my friends.mp3
-88:can't leave without it.mp3
-89:good day.mp3
-90:monster.mp3
-91:pad lock.mp3
-92:Bank Account.mp3
-93:Bad Guy.mp3
-94:Feel It.mp3
-95:Ghostface Killers.mp3
-96:Mad High.mp3
-97:No Advance.mp3
-98:No Heart.mp3
-99:Savage Mode.mp3
-100:X [21 Savage].mp3
-101:Rich Nigga Shit.mp3
-102:Runnin [21 Savage].mp3
+0:Levitating.mp3
+1:Вне Зоны.mp3
+2:Marmalade.mp3
+3:Gilligan.mp3
+4:Give No Fxk.mp3
+5:Go Off.mp3
+6:She.mp3
+7:GOKU.mp3
+8:m.A.A.d city.mp3
+9:Good Knight.mp3
+10:All Girls Are The Same.mp3
+11:Lean Wit Me.mp3
+12:Everything I Am.mp3
+13:Hit 'Em Up.mp3
+14:Do You Believe In God?.mp3
+15:Yes Indeed.mp3
+16:Hell on Earth (Front Lines).mp3
+17:Hella Hoes.mp3
+18:walk away as the door slams.mp3
+19:Mount Sinai.mp3
+20:HIGHEST IN THE ROOM.mp3
+21:Sunflower.mp3
+22:5:3666.mp3
+23:Motorcycle Patches.mp3
+24:Hunnid On The Drop.mp3
+25:1.5.mp3
+26:all my friends.mp3
+27:good day.mp3
+28:Come On, Let's Go.mp3
+29:ONCE UPON A TIME (FREESTYLE).mp3
+30:BULLETPROOF.mp3
+31:Know Yourself.mp3
+32:Bullet From A Gun.mp3
+33:ARE WE STILL FRIENDS.mp3
+34:EARFQUAKE.mp3
+35:RUNNING OUT OF TIME.mp3
+36:WHAT'S GOOD.mp3
+37:Gook.mp3
+38:Story: No Title.mp3
+39:Bartier Cardi.mp3
+40:24.mp3
+41:Japan.mp3
+42:Closed On Sunday.mp3
+43:Follow God.mp3
+44:On God.mp3
+45:Use This Gospel.mp3
+46:Just Wanna Rock.mp3
+47:Nikes on My Feet.mp3
+48:The Ringer.mp3
+49:Cudi Montage.mp3
+50:Feel The Love.mp3
+51:Fire.mp3
+52:Freeee (Ghost Town Pt. 2).mp3
+53:Kids See Ghosts.mp3
+54:King To A God.mp3
+55:1985.mp3
+56:ATM.mp3
+57:KOD.mp3
+58:Once an Addict.mp3
+59:Shutdown.mp3
+60:That's Not Me.mp3
+61:Let Me Know (I Wonder Why Freestyle).mp3
+62:Lion King On Ice.mp3
+63:Please Forgive.mp3
+64:D Rose.mp3
+65:Canadian Goose.mp3
+66:Ps & Qs.mp3
+67:Riri.mp3
+68:Woodlawn.mp3
+69:Peso.mp3
+70:Love Is Only a Feeling.mp3
+71:Get Free.mp3
+72:Lust For Life.mp3
+73:7AM.mp3
+74:444+222.mp3
+75:The Way Life Goes.mp3
+76:Fight the Feeling.mp3
+77:Accordion.mp3
+78:Great Day.mp3
+79:Strange Ways.mp3
+80:3.214.mp3
+81:The Void.mp3
+82:Mase in '96.mp3
+83:Meet the Woo.mp3
+84:Element.mp3
+85:Get Back.mp3
+86:Off the Wall!.mp3
+87:Mercy.mp3
+88:Автопилот.mp3
+89:Нет тебя.mp3
+90:Kookies.mp3
+91:INDUSTRY BABY.mp3
+92:KMT.mp3
+93:MORNING IN THE EAST COAST.mp3
+94:N95.mp3
+95:Kyrie.mp3
+96:Mo Bamba.mp3
+97:Godzilla.mp3
+98:Minnesota.mp3
+99:Kill Yourself (Part III).mp3
+100:Chewing Gum.mp3
+101:Something In The Way.mp3
+102:Panda.mp3
+103:New World Order.mp3
+104:Smells Like Teen Spirit.mp3
+105:Lemon.mp3
+106:WhatCouldPossiblyGoWrong.mp3
+107:10 Freaky Girls.mp3
+108:Dreamcatcher.mp3
+109:No Complaints.mp3
+110:Started From the Bottom.mp3
+111:Wu-Tang Forever.mp3
+112:Who Want The Smoke?.mp3
+113:Audiopium.mp3
+114:REEL IT IN.mp3
+115:Opium Dream.mp3
+116:All Caps.mp3
+117:Tints.mp3
+118:Patty Cake.mp3
+119:Tunnel Vision.mp3
+120:Baptized In Fire.mp3
+121:Pissy Pamper (Kid Cudi).mp3
+122:Plain Jane REMIX.mp3
+123:wokeuplikethis*.mp3
+124:The Box.mp3
+125:Plug Addicts.mp3
+126:Bender+Girlfriend (Produced by Whitearmor).mp3
+127:Ropeman (Produced by Whitearmor).mp3
+128:34+35.mp3
+129:Potato Salad.mp3
+130:327.mp3
+131:Roll in Peace.mp3
+132:Bubbly (with Drake & Travis Scott).mp3
+133:Day Before (with Mac Miller).mp3
+134:Livin It Up (with Post Malone & A$AP Rocky).mp3
+135:Stressed (with J. Cole & T-Shyne).mp3
+136:Ice Tray.mp3
+137:On Me.mp3
+138:Quentin  Tarantino.mp3
+139:Racks 2 Skinny.mp3
+140:Magazine.mp3
+141:High Top Versace.mp3
+142:I'm Not Crazy, Life Is.mp3
+143:Momma I Hit A Lick.mp3
+144:NCAA.mp3
+145:Big Poppa.mp3
+146:Gimme the Loot.mp3
+147:Juicy.mp3
+148:Wanted You.mp3
+149:Wow Freestyle.mp3
+150:REDLIGHT.mp3
+151:Reminder (Remix).mp3
+152:YuNg BrAtZ.mp3
+153:1993.mp3
+154:Big Black Truck.mp3
+155:Costa Rica.mp3
+156:Walk On Water [Eminem].mp3
+157:90210.mp3
+158:Black and Yellow.mp3
+159:Champion Of Death.mp3
+160:Sanguine Paradise.mp3
+161:Bad Guy.mp3
+162:Feel It.mp3
+163:No Advance.mp3
+164:X [21 Savage].mp3
+165:Runnin [21 Savage].mp3
+166:Save Your Tears.mp3
+167:In My Feelings.mp3
+168:Nonstop.mp3
+169:Talk Up.mp3
+170:Bounce Back.mp3
+171:Search & Rescue.mp3
+172:Shea Butter Baby.mp3
+173:Got It On Me.mp3
+174:Ned Flanders.mp3
+175:I don't let go.mp3
+176:Hot.mp3
+177:The London.mp3
+178:So What?.mp3
+179:Not So Bad (Leans Gone Cold).mp3
+180:Sidewalks.mp3
+181:Iceheart.mp3
+182:TaleOfAGhost.mp3
+183:Mad Man.mp3
+184:Plain Jane.mp3
+185:The Mattress REMIX.mp3
+186:Trap And A Dream.mp3
+187:Nuketown.mp3
+188:That Just Isn't Empirically Possible.mp3
+189:Fuck Tha Police.mp3
+190:Straight Outta Compton.mp3
+191:Red Bottom Sky.mp3
+192:SUICIDE YEAR.mp3
+193:Summer Sixteen.mp3
+194:Sundress.mp3
+195:Conversation Pt. 1.mp3
+196:Jet Fuel.mp3
+197:Ladders.mp3
+198:So It Goes.mp3
+199:Wings.mp3
+200:Fallen.mp3
+201:Hope [Jaden].mp3
+202:Watch Me.mp3
+203:BLACK BALLOONS | 13LACK 13ALLOONZ.mp3
+204:CLOUT COBAIN | CLOUT CO13A1N.mp3
+205:SIRENS | Z1RENZ.mp3
+206:SUMO | ZUMO.mp3
+207:VENGEANCE | VENGEANCE.mp3
+208:Taipei.mp3
+209:Buried Alive Interlude.mp3
+210:Johnny P's Caddy.mp3
+211:A$AP Forever.mp3
+212:Fukk Sleep.mp3
+213:Hun43rd.mp3
+214:Kids Turned Out Fine.mp3
+215:Praise The Lord (Da Shine).mp3
+216:A Milli.mp3
+217:Don’t Cry.mp3
+218:Let It Fly.mp3
+219:Mona Lisa.mp3
+220:No Limit.mp3
+221:Money In The Grave.mp3
+222:Hot Shower.mp3
+223:99 Problems.mp3
+224:Run This Town [Jay-Z, Rihanna, & Kanye West].mp3
+225:'Till I Collapse.mp3
+226:Cleanin' Out My Closet.mp3
+227:Hailie's Song.mp3
+228:White America.mp3
+229:The Hillbillies.mp3
+230:Father Stretch My Hands Pt. 1.mp3
+231:No More Parties In LA.mp3
+232:Wolves.mp3
+233:NILE.mp3
+234:Stan.mp3
+235:The Way I Am.mp3
+236:Berzerk.mp3
+237:durag activity.mp3
+238:Crosshairs.mp3
+239:p r i d e . i s . t h e . d e v i l.mp3
+240:Of Course We Ghetto Flowers.mp3
+241:Original Uzi (4 of Us).mp3
+242:Seven Million.mp3
+243:This Is America.mp3
+244:Alright.mp3
+245:King Kunta.mp3
+246:Tokyo Drift (Fast & Furious).mp3
+247:Smirnoff Ice.mp3
+248:Both.mp3
+249:CANCELLED.mp3
+250:Onna Come Up.mp3
+251:Hurt [Prod. Suicideyear].mp3
+252:Leanworld.mp3
+253:Monster.mp3
+254:'Cosmic'.m4a (Joey Bada$$ Version).mp3
+255:untitled 07.mp3
+256:UOENO.mp3
+257:Vice City.mp3
+258:Ghost Ride.mp3
+259:Walkin.mp3
+260:AF1s.mp3
+261:Fantasy.mp3
+262:God Only Knows.mp3
+263:Immortal [Yung Lean].mp3
+264:Miami Ultras.mp3
+265:Shawty U Know What It Do.mp3
+266:Wash Us In The Blood.mp3
+267:Made In America.mp3
+268:Niggas In Paris.mp3
+269:O.K..mp3
+270:Jumpman.mp3
+271:Almeda.mp3
+272:M3tamorphosis.mp3
+273:Tamale.mp3
 playlist_end

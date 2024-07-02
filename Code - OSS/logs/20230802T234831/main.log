@@ -1,0 +1,8 @@
+2023-08-02 23:48:31.809 [info] update#ctor - updates are disabled as there is no update URL
+2023-08-02 23:48:40.683 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-02 23:48:57.398 [info] Extension host with pid 234780 exited with code: 0, signal: unknown.
+2023-08-02 23:48:57.439 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-08-02 23:48:57.440 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 234897]: crashed with code 15 and reason 'killed'
+2023-08-02 23:49:58.858 [info] Extension host with pid 235310 exited with code: 0, signal: unknown.
+2023-08-02 23:49:58.922 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-08-02 23:49:58.922 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 235392]: crashed with code 15 and reason 'killed'

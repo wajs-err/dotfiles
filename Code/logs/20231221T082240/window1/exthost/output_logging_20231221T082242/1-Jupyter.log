@@ -1,0 +1,334 @@
+Visual Studio Code (1.85.1, undefined, desktop)
+Jupyter Extension Version: 2023.9.100.
+Python Extension Version: 2023.20.0.
+Platform: linux (x64).
+No workspace folder opened.
+08:22:43.132 [info] User belongs to experiment group 'NewJupyterSession'
+08:22:43.546 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:43.547 [info] Start refreshing Kernel Picker (1703136163547)
+08:22:43.555 [info] Using Pylance
+08:22:43.593 [debug] Get Custom Env Variables, Class name = Kl, completed in 47ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:43.594 [debug] Jupyter Paths /kernels: 
+08:22:43.595 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+08:22:44.284 [debug] No controller, hence notebook communications cannot be initialized for editor ~/05-spark-base_nb.ipynb
+08:22:44.284 [info] Start refreshing Interpreter Kernel Picker
+08:22:44.331 [debug] Loading kernelspec from /usr/share/jupyter/kernels/python3/kernel.json 
+08:22:44.469 [debug] Search for KernelSpecs in Interpreter /bin/python
+08:22:44.470 [debug] Finding Global Python KernelSpecs
+08:22:44.474 [debug] Search for KernelSpecs in Interpreter /sbin/python
+08:22:44.475 [debug] Search for KernelSpecs in Interpreter /usr/bin/python
+08:22:44.476 [debug] Search for KernelSpecs in Interpreter /usr/sbin/python
+08:22:44.477 [debug] Full interpreter list is length: 4, /bin/python::Unknown:/bin/python, /sbin/python::Unknown:/sbin/python, /usr/bin/python::Unknown:/usr/bin/python, /usr/sbin/python::Unknown:/usr/sbin/python
+08:22:44.480 [debug] Getting activated env variables, Class name = za (started execution), Arg 1: undefined, Arg 2: "/bin/python", Arg 3: undefined
+08:22:44.481 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:44.483 [debug] Get Custom Env Variables, Class name = Kl, completed in 2ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:44.564 [debug] Kernels for interpreter /bin/python are .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+08:22:44.565 [debug] Kernels for interpreter /sbin/python are .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+08:22:44.566 [debug] Kernels for interpreter /usr/bin/python are .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher
+08:22:44.566 [debug] Kernels for interpreter /usr/sbin/python are .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher
+08:22:44.656 [debug] Conda file returned by Python Extension is conda
+08:22:44.707 [warn] Failed to get activated env vars for /bin/python in 226ms
+08:22:44.710 [debug] Create ProcessService, Class name = Cl (started execution), Arg 1: undefined
+08:22:44.710 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+08:22:44.711 [debug] Get Custom Env Variables, Class name = Kl, completed in 1ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+08:22:44.711 [debug] Create ProcessService, Class name = Cl, completed in 1ms, has a truthy return value, Arg 1: undefined
+08:22:44.729 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+08:22:44.774 [debug] USER_SITE for /bin/python is ~/.local/bin
+08:22:44.774 [debug] Prepend PATH with user site path for /bin/python, user site ~/.local/bin
+08:22:44.774 [debug] Prepend PATH with python bin for /bin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+08:22:44.774 [debug] Activated Env Variables for /bin/python, 
+    PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+08:22:44.775 [debug] Getting activated env variables, Class name = za, completed in 294ms, has a truthy return value, Arg 1: undefined, Arg 2: "/bin/python", Arg 3: undefined
+08:22:44.785 [info] Process Execution: /bin/python -m pip list
+08:22:45.128 [debug] Full interpreter list is length: 4, /bin/python::Unknown:/bin/python, /sbin/python::Unknown:/sbin/python, /usr/bin/python::Unknown:/usr/bin/python, /usr/sbin/python::Unknown:/usr/sbin/python
+08:22:45.128 [debug] Refreshed Environments
+08:22:46.129 [info] End refreshing Kernel Picker (1703136163547)
+08:22:57.174 [debug] No controller, hence notebook communications cannot be initialized for editor ~/downloads/main.ipynb
+08:22:57.203 [debug] KernelProvider switched kernel to id = .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+08:22:57.204 [debug] start the kernel, options.disableUI=true for ~/downloads/main.ipynb
+08:22:57.207 [debug] Initialize notebook communications for editor ~/downloads/main.ipynb
+08:22:57.207 [debug] Resolving notebook UI Comms (resolve) for ~/downloads/main.ipynb
+08:22:57.207 [debug] initialize CommonMessageCoordinator
+08:22:57.209 [debug] Registering commtarget jupyter.widget
+08:22:57.209 [debug] IPyWidgetMessageDispatcher.initialize
+08:22:57.210 [debug] Attempting to determine version of IPyWidgets
+08:22:57.212 [debug] Controller selection change completed
+08:22:57.212 [debug] Waiting for IPyWidgets version
+08:22:57.213 [debug] Waiting for IPyWidgets version promise
+08:22:57.215 [debug] Getting activated env variables, Class name = za (started execution), Arg 1: undefined, Arg 2: "/sbin/python", Arg 3: undefined
+08:22:57.215 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:57.216 [debug] Get Custom Env Variables, Class name = Kl, completed in 1ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:57.217 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher  (Python Path: /sbin/python, Unknown, 3.11.6) for '~/downloads/main.ipynb' (disableUI=true)
+08:22:57.218 [debug] Creating raw notebook for resource '~/downloads/main.ipynb'
+08:22:57.222 [debug] Kernel Launcher. launch, Class name = ey (started execution), Arg 1: ".jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/downloads/main.ipynb", Arg 4: "~/downloads", Arg 5: ""
+08:22:57.234 [debug] Getting activated env variables, Class name = za (started execution), Arg 1: "~/downloads/main.ipynb", Arg 2: "/sbin/python", Arg 3: undefined
+08:22:57.234 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: "~/downloads/main.ipynb", Arg 2: "RunPythonCode"
+08:22:57.235 [debug] Get Custom Env Variables, Class name = Kl, completed in 1ms, has a truthy return value, Arg 1: "~/downloads/main.ipynb", Arg 2: "RunPythonCode"
+08:22:57.250 [warn] Failed to get activated env vars for /sbin/python in 35ms
+08:22:57.251 [debug] Create ProcessService, Class name = Cl (started execution), Arg 1: undefined
+08:22:57.251 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+08:22:57.251 [debug] Cached data exists getEnvironmentVariables, <No Resource>
+08:22:57.251 [debug] Get Custom Env Variables, Class name = Kl, completed in 0ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+08:22:57.251 [debug] Create ProcessService, Class name = Cl, completed in 0ms, has a truthy return value, Arg 1: undefined
+08:22:57.259 [info] Process Execution: /sbin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+08:22:57.265 [warn] Failed to get activated env vars for /sbin/python in 31ms
+08:22:57.272 [debug] Launching kernel in kernelProcess.ts, Class name = Xv (started execution), Arg 1: "~/downloads", Arg 2: ""
+08:22:57.307 [debug] USER_SITE for /sbin/python is ~/.local/bin
+08:22:57.308 [debug] Prepend PATH with user site path for /sbin/python, user site ~/.local/bin
+08:22:57.308 [debug] Prepend PATH with python bin for /sbin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+08:22:57.308 [debug] Activated Env Variables for /sbin/python, 
+    PATH value is /sbin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+08:22:57.308 [debug] Prepend PATH with user site path for /sbin/python, user site ~/.local/bin
+08:22:57.308 [debug] Prepend PATH with python bin for /sbin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+08:22:57.308 [debug] Activated Env Variables for /sbin/python, 
+    PATH value is /sbin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+08:22:57.308 [debug] Getting activated env variables, Class name = za, completed in 93ms, has a truthy return value, Arg 1: undefined, Arg 2: "/sbin/python", Arg 3: undefined
+08:22:57.308 [debug] Getting activated env variables, Class name = za, completed in 74ms, has a truthy return value, Arg 1: "~/downloads/main.ipynb", Arg 2: "/sbin/python", Arg 3: undefined
+08:22:57.319 [info] Process Execution: /sbin/python -m pip list
+08:22:57.328 [info] Process Execution: /sbin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:22:57.328 [debug] Kernel Env Variables for ~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/temp/jupyter/kernels/pythonjvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48/kernel.json, PATH value is /sbin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+08:22:57.340 [info] Process Execution: /sbin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"178b8bd1-9e62-4c6c-8c97-53c75177004f" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-416716zPNltS0muodc.json
+    > cwd: ~/downloads
+08:22:57.340 [debug] Launching kernel in kernelProcess.ts, Class name = Xv, completed in 68ms, has a truthy return value, Arg 1: "~/downloads", Arg 2: ""
+08:22:57.755 [info] ipykernel version & path 6.27.1, /usr/lib/python3.11/site-packages/ipykernel/__init__.py for /sbin/python
+08:22:57.938 [debug] Attempting to determine version of IPyWidgets
+08:22:57.939 [debug] Waiting for IPyWidgets version
+08:22:57.939 [debug] Waiting for IPyWidgets version promise
+08:22:58.409 [debug] KernelProcess output: NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing kernel-v2-416716zPNltS0muodc.json
+
+08:22:58.409 [debug] Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-416716zPNltS0muodc.json
+
+08:22:58.447 [debug] KernelProcess error: [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+
+08:22:58.447 [warn] StdErr from Kernel Process [IPKernelApp] WARNING | debugpy_stream undefined, debugging will not be enabled
+08:22:58.560 [debug] Kernel Launcher. launch, Class name = ey, completed in 1338ms, has a truthy return value, Arg 1: ".jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/downloads/main.ipynb", Arg 4: "~/downloads", Arg 5: ""
+08:22:58.575 [debug] Waiting for Raw Session to be ready in postStartRawSession
+08:22:58.575 [debug] Waiting for Raw session to be ready, currently connected
+08:22:58.575 [debug] Raw session connected
+08:22:58.575 [debug] Waiting for Raw session to be ready for 30s
+08:22:58.576 [debug] Waited for Raw session to be ready & got connected
+08:22:58.576 [debug] Successfully waited for Raw Session to be ready in postStartRawSession
+08:22:58.576 [debug] Kernel status before requesting kernel info and after ready is unknown
+08:22:58.576 [debug] Sending request for kernelinfo
+08:22:58.585 [debug] Got response for requestKernelInfo
+08:22:58.585 [debug] Successfully compelted postStartRawSession
+08:22:58.586 [info] Started Kernel Python 3.11.6 (pid: 417067)
+08:22:58.586 [info] Started new session 3581a9e5-cf68-4937-a49e-918e79b77985
+08:22:58.588 [debug] Begin sendTelemetryForPythonKernelExecutable
+08:22:58.588 [debug] Executing silently Code (idle) = import sys as _VSCODE_sys\nprint(_VSCODE_sys.executable); del _VSCODE_sys
+08:22:58.610 [debug] Executing silently Code (completed) = import sys as _VSCODE_sys\nprint(_VSCODE_sys.executable); del _VSCODE_sys with 1 output(s)
+08:22:58.611 [debug] End sendTelemetryForPythonKernelExecutable
+08:22:58.611 [debug] Started running kernel initialization for ~/downloads/main.ipynb
+08:22:58.611 [debug] Executing silently Code (idle) = try:\nimport ipywidgets as _VSCODE_ipywidgets\nprint("e976ee50-99ed-4aba-9b6b-9dcd5634d07d:IPy
+08:22:58.622 [debug] Executing silently Code (completed) = try:\nimport ipywidgets as _VSCODE_ipywidgets\nprint("e976ee50-99ed-4aba-9b6b-9dcd5634d07d:IPy with 0 output(s)
+08:22:58.622 [debug] Determined IPyWidgets Version as undefined and event fired
+08:22:58.624 [debug] Executing silently Code (idle) = import os as _VSCODE_os\nimport sys as _VSCODE_sys\n%cd "~/downloads"\nif _VSCODE_os.get
+08:22:58.645 [debug] Executing silently Code (completed) = import os as _VSCODE_os\nimport sys as _VSCODE_sys\n%cd "~/downloads"\nif _VSCODE_os.get with 1 output(s)
+08:22:58.646 [debug] Requesting Kernel info
+08:22:58.647 [debug] Got Kernel info
+08:22:58.647 [debug] End running kernel initialization, now waiting for idle
+08:22:58.648 [debug] Waiting for 60000ms idle on (kernel): 3581a9e5-cf68-4937-a49e-918e79b77985 -> idle
+08:22:58.648 [debug] Finished waiting for idle on (kernel): 3581a9e5-cf68-4937-a49e-918e79b77985 -> idle
+08:22:58.648 [debug] End running kernel initialization, session is idle
+08:22:58.651 [debug] IPyWidgetScriptSource.initialize
+08:22:58.651 [debug] IPyWidgetMessageDispatcher.initialize
+08:22:58.653 [debug] getDataDirsImpl, Class name = vf (started execution), Arg 1: "~/downloads/main.ipynb", Arg 2: "/sbin/python"
+08:22:58.653 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:58.654 [debug] Get Custom Env Variables, Class name = Kl, completed in 1ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+08:22:58.654 [debug] Jupyter Paths : 
+08:22:58.667 [info] Process Execution: /sbin/python ~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/pythonFiles/printJupyterDataDir.py
+08:22:58.706 [debug] getDataDirsImpl, Class name = vf, completed in 53ms, has a truthy return value, Arg 1: "~/downloads/main.ipynb", Arg 2: "/sbin/python"
+08:24:09.496 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:24:09.499 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:09.502 [debug] Execution Request Sent to Kernel for cell 3
+08:24:09.514 [debug] Start cell 3 execution @ 1703136249513 (clear output)
+08:24:09.515 [info] Kernel acknowledged execution of cell 3 @ 1703136249513
+08:24:09.714 [info] End cell 3 execution @ 1703136249713, started @ 1703136249513, elapsed time = 0.2s
+08:24:09.715 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:24:09.715 [debug] Cancel pending cells
+08:24:09.716 [debug] Cell 3 executed with state Error
+08:24:12.961 [info] Handle Execution of Cells 1 for ~/downloads/main.ipynb
+08:24:12.962 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:12.963 [debug] Execution Request Sent to Kernel for cell 1
+08:24:12.971 [debug] Start cell 1 execution @ 1703136252971 (clear output)
+08:24:12.971 [info] Kernel acknowledged execution of cell 1 @ 1703136252971
+08:24:12.989 [info] End cell 1 execution @ 1703136252989, started @ 1703136252971, elapsed time = 0.018s
+08:24:12.989 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:24:12.989 [debug] Cancel pending cells
+08:24:12.989 [debug] Cell 1 executed with state Error
+08:24:14.343 [info] Handle Execution of Cells 0 for ~/downloads/main.ipynb
+08:24:14.344 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:14.345 [debug] Execution Request Sent to Kernel for cell 0
+08:24:14.350 [debug] Start cell 0 execution @ 1703136254350 (clear output)
+08:24:14.350 [info] Kernel acknowledged execution of cell 0 @ 1703136254350
+08:24:14.826 [info] End cell 0 execution @ 1703136254825, started @ 1703136254350, elapsed time = 0.475s
+08:24:14.827 [debug] Cell 0 executed with state Success
+08:24:15.944 [info] Handle Execution of Cells 1 for ~/downloads/main.ipynb
+08:24:15.945 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:15.946 [debug] Execution Request Sent to Kernel for cell 1
+08:24:15.952 [debug] Start cell 1 execution @ 1703136255952 (clear output)
+08:24:15.952 [info] Kernel acknowledged execution of cell 1 @ 1703136255952
+08:24:15.955 [info] End cell 1 execution @ 1703136255955, started @ 1703136255952, elapsed time = 0.003s
+08:24:15.956 [debug] Cell 1 executed with state Success
+08:24:17.926 [info] Handle Execution of Cells 2 for ~/downloads/main.ipynb
+08:24:17.927 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:17.928 [debug] Execution Request Sent to Kernel for cell 2
+08:24:17.936 [debug] Start cell 2 execution @ 1703136257936 (clear output)
+08:24:17.937 [info] Kernel acknowledged execution of cell 2 @ 1703136257936
+08:24:17.940 [info] End cell 2 execution @ 1703136257939, started @ 1703136257936, elapsed time = 0.003s
+08:24:17.940 [debug] Cell 2 executed with state Success
+08:24:21.134 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:24:21.135 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:21.136 [debug] Execution Request Sent to Kernel for cell 3
+08:24:21.147 [debug] Start cell 3 execution @ 1703136261147 (clear output)
+08:24:21.147 [info] Kernel acknowledged execution of cell 3 @ 1703136261147
+08:24:21.439 [info] End cell 3 execution @ 1703136261438, started @ 1703136261147, elapsed time = 0.291s
+08:24:21.439 [debug] Cell 3 executed with state Success
+08:24:51.256 [debug] Jupyter completion time: 6
+08:24:51.743 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:24:51.743 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:51.744 [debug] Execution Request Sent to Kernel for cell 3
+08:24:51.753 [debug] Start cell 3 execution @ 1703136291753 (clear output)
+08:24:51.753 [info] Kernel acknowledged execution of cell 3 @ 1703136291753
+08:24:52.025 [info] End cell 3 execution @ 1703136292025, started @ 1703136291753, elapsed time = 0.272s
+08:24:52.025 [debug] Cell 3 executed with state Success
+08:24:58.189 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:24:58.189 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:24:58.190 [debug] Execution Request Sent to Kernel for cell 3
+08:24:58.198 [debug] Start cell 3 execution @ 1703136298198 (clear output)
+08:24:58.198 [info] Kernel acknowledged execution of cell 3 @ 1703136298198
+08:24:58.432 [info] End cell 3 execution @ 1703136298432, started @ 1703136298198, elapsed time = 0.234s
+08:24:58.432 [debug] Cell 3 executed with state Success
+08:25:12.425 [debug] Jupyter completion time: 6
+08:25:13.292 [debug] Jupyter completion time: 6
+08:25:14.801 [debug] Jupyter completion time: 13
+08:25:15.481 [debug] Jupyter completion time: 6
+08:25:15.763 [debug] Jupyter completion time: 8
+08:25:17.205 [debug] Jupyter completion time: 16
+08:25:18.848 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:25:18.849 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:25:18.850 [debug] Execution Request Sent to Kernel for cell 3
+08:25:18.882 [debug] Start cell 3 execution @ 1703136318882 (clear output)
+08:25:18.882 [info] Kernel acknowledged execution of cell 3 @ 1703136318882
+08:25:19.111 [info] End cell 3 execution @ 1703136319111, started @ 1703136318882, elapsed time = 0.229s
+08:25:19.112 [debug] Cell 3 executed with state Success
+08:25:29.310 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:25:29.312 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:25:29.313 [debug] Execution Request Sent to Kernel for cell 3
+08:25:29.322 [debug] Start cell 3 execution @ 1703136329322 (clear output)
+08:25:29.322 [info] Kernel acknowledged execution of cell 3 @ 1703136329322
+08:25:29.631 [info] End cell 3 execution @ 1703136329630, started @ 1703136329322, elapsed time = 0.308s
+08:25:29.631 [debug] Cell 3 executed with state Success
+08:25:35.179 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:25:35.180 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:25:35.182 [debug] Execution Request Sent to Kernel for cell 3
+08:25:35.209 [debug] Start cell 3 execution @ 1703136335209 (clear output)
+08:25:35.209 [info] Kernel acknowledged execution of cell 3 @ 1703136335209
+08:25:35.426 [info] End cell 3 execution @ 1703136335426, started @ 1703136335209, elapsed time = 0.217s
+08:25:35.427 [debug] Cell 3 executed with state Success
+08:25:41.888 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:25:41.889 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:25:41.890 [debug] Execution Request Sent to Kernel for cell 3
+08:25:41.916 [debug] Start cell 3 execution @ 1703136341916 (clear output)
+08:25:41.916 [info] Kernel acknowledged execution of cell 3 @ 1703136341916
+08:25:42.134 [info] End cell 3 execution @ 1703136342133, started @ 1703136341916, elapsed time = 0.217s
+08:25:42.135 [debug] Cell 3 executed with state Success
+08:26:38.608 [debug] Jupyter completion time: 7
+08:26:40.749 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:26:40.749 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:26:40.750 [debug] Execution Request Sent to Kernel for cell 3
+08:26:40.773 [debug] Start cell 3 execution @ 1703136400773 (clear output)
+08:26:40.773 [info] Kernel acknowledged execution of cell 3 @ 1703136400773
+08:26:41.162 [info] End cell 3 execution @ 1703136401161, started @ 1703136400773, elapsed time = 0.388s
+08:26:41.162 [debug] Cell 3 executed with state Success
+08:27:24.161 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:27:24.162 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:27:24.163 [debug] Execution Request Sent to Kernel for cell 3
+08:27:24.171 [debug] Start cell 3 execution @ 1703136444171 (clear output)
+08:27:24.172 [info] Kernel acknowledged execution of cell 3 @ 1703136444171
+08:27:27.123 [info] End cell 3 execution @ 1703136447122, started @ 1703136444171, elapsed time = 2.951s
+08:27:27.123 [debug] Cell 3 executed with state Success
+08:27:27.546 [info] Handle Execution of Cells 3 for ~/downloads/main.ipynb
+08:27:27.546 [debug] start the kernel, options.disableUI=false for ~/downloads/main.ipynb
+08:27:27.547 [debug] Execution Request Sent to Kernel for cell 3
+08:27:27.556 [debug] Start cell 3 execution @ 1703136447556 (clear output)
+08:27:27.557 [info] Kernel acknowledged execution of cell 3 @ 1703136447556
+08:27:28.243 [info] End cell 3 execution @ 1703136448243, started @ 1703136447556, elapsed time = 0.687s
+08:27:28.244 [debug] Cell 3 executed with state Success
+22:18:36.263 [info] Disposing HostJupyterExecution
+22:18:36.263 [debug] Disposing super HostJupyterExecution
+22:18:36.263 [debug] Cleaning up server cache
+22:18:36.263 [info] Shutting down notebooks for 57fb00c9-74fc-4225-9864-f04b3a4dbfa2
+22:18:36.263 [info] Dispose Kernel '~/downloads/main.ipynb' associated with '~/downloads/main.ipynb'
+22:18:36.263 [debug] Cancel pending cells
+22:18:36.266 [debug] Shutdown session - current session, called from Error: 
+	at _y.shutdownImplementation (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:150669)
+	at _y.disposeAsync (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:145781)
+	at ~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:234794
+	at Yg.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:235008)
+	at ~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:2352947
+	at Array.map (<anonymous>)
+	at Ac.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:2352937)
+	at Module.AT (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:650470)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9678)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+22:18:36.266 [debug] shutdownSession 3581a9e5-cf68-4937-a49e-918e79b77985, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher - start
+22:18:36.266 [debug] Session can be shutdown .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+22:18:36.267 [info] Dispose Kernel process 417067.
+22:18:36.277 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/downloads/main.ipynb
+22:18:36.278 [info] Disposing HostJupyterExecution
+22:18:36.278 [debug] Finished disposing HostJupyterExecution
+22:18:36.281 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+22:18:36.282 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+22:18:36.282 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher and documents file://~/downloads/main.ipynb
+22:18:36.282 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+22:18:36.283 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+22:18:36.283 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+22:18:36.283 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+22:18:36.283 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+22:18:36.285 [debug] Finished disposing HostJupyterExecution
+22:18:36.288 [debug] Shutdown session - current session, called from Error: 
+	at _y.shutdownImplementation (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:150669)
+	at _y.disposeAsync (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:145781)
+	at ~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:121424
+	at Array.map (<anonymous>)
+	at ky.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:121414)
+	at async Promise.all (index 1)
+	at async Ac.dispose (~/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:2352959)
+	at async Promise.all (index 8)
+	at async f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7823)
+22:18:36.288 [debug] shutdownSession 3581a9e5-cf68-4937-a49e-918e79b77985, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher - start
+22:18:36.288 [debug] Session can be shutdown .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+22:18:36.299 [debug] Disposed Kernel process 417067.
+22:18:36.300 [debug] shutdownSession 3581a9e5-cf68-4937-a49e-918e79b77985, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher - shutdown complete
+22:18:36.300 [debug] shutdownSession 3581a9e5-cf68-4937-a49e-918e79b77985, .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher - shutdown complete
+22:18:36.300 [debug] Shutdown session - get restart session
+22:18:36.301 [debug] Shutdown session -- complete
+22:18:36.301 [debug] Shutdown session - get restart session
+22:18:36.301 [debug] Shutdown session -- complete

@@ -6,7 +6,7 @@ o.smarttab = true
 o.smartindent = true
 o.tabstop = 8
 o.softtabstop = 0
-o.shiftwidth = 2
+o.shiftwidth = 4
 
 o.wrap = false
 
@@ -27,7 +27,7 @@ opt.smartcase = true
 
 opt.splitright = true
 
--- opt.spelllang = { "en_us", "ru" }
+opt.spelllang = { "en_us", "ru" }
 opt.spell = true
 
 opt.number = true

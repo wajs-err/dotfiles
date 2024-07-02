@@ -1,0 +1,30 @@
+2023-08-02 23:48:37.361 [info] Log level: Info
+2023-08-02 23:48:37.361 [info] Validating found git in: "git"
+2023-08-02 23:48:37.361 [info] Using git "2.41.0" from "git"
+2023-08-02 23:48:37.361 [info] > git rev-parse --show-toplevel [9ms]
+2023-08-02 23:48:37.361 [info] > git rev-parse --git-dir --git-common-dir [668ms]
+2023-08-02 23:48:37.361 [info] Open repository: /home/_wajs_err_/study/python/lab
+2023-08-02 23:48:37.459 [info] > git config --get commit.template [81ms]
+2023-08-02 23:48:37.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-08-02 23:48:37.742 [info] > git status -z -uall [175ms]
+2023-08-02 23:48:37.896 [info] > git config --get commit.template [63ms]
+2023-08-02 23:48:37.938 [info] > git check-ignore -v -z --stdin [7ms]
+2023-08-02 23:48:37.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2023-08-02 23:48:37.963 [info] > git status -z -uall [8ms]
+2023-08-02 23:48:46.502 [info] > git check-ignore -v -z --stdin [5ms]
+2023-08-02 23:48:58.834 [info] Log level: Info
+2023-08-02 23:48:58.834 [info] Validating found git in: "git"
+2023-08-02 23:48:58.834 [info] Using git "2.41.0" from "git"
+2023-08-02 23:48:58.836 [info] > git rev-parse --show-toplevel [67ms]
+2023-08-02 23:48:58.867 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2023-08-02 23:48:58.872 [info] Open repository: /home/_wajs_err_/study/python/lab
+2023-08-02 23:48:58.895 [info] > git config --get commit.template [11ms]
+2023-08-02 23:48:58.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-08-02 23:48:58.920 [info] > git status -z -uall [8ms]
+2023-08-02 23:48:58.948 [info] > git config --get commit.template [3ms]
+2023-08-02 23:48:58.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-08-02 23:48:59.004 [info] > git status -z -uall [25ms]
+2023-08-02 23:48:59.696 [info] > git check-ignore -v -z --stdin [2ms]
+2023-08-02 23:49:26.105 [info] > git config --get commit.template [2ms]
+2023-08-02 23:49:26.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-08-02 23:49:26.126 [info] > git status -z -uall [2ms]

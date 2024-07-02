@@ -1,0 +1,35 @@
+#!/bin/bash
+
+default="\033[1;39m"
+green="\033[1;32m"
+red="\033[1;31m"
+
+rfkill unblock bluetooth
+
+if ! systemctl status bluetooth | grep active > /dev/null; then
+    systemctl start bluetooth > /dev/null
+    systemctl enable bluetooth > /dev/null
+fi
+
+if ! systemctl --user status pulseaudio | grep active > /dev/null; then
+    systemctl --user start pulseaudio > /dev/null
+    systemctl --user enable pulseaudio > /dev/null
+fi
+
+if ! bluetoothctl info | grep 04:29:2E:33:AC:AD > /dev/null; then 
+    bluetoothctl power on > /dev/null
+    if bluetoothctl connect 04:29:2E:33:AC:AD > /dev/null; then
+        echo -e "$green=> device successfully connected$default"
+    else
+        echo -e "$red=> error while connecting device$default"
+    fi
+else
+    echo -e "$green=> device is already connected$default"
+fi
+
+if ! [[ -e /home/_wajs_err_/.config/mpd/mpd.pid ]]; then
+    mpd > /dev/null
+    echo -e "$green=> mpd started$default"
+else
+    echo -e "$green=> mpd is already running$default"
+fi

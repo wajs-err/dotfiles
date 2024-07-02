@@ -566,7 +566,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -795,7 +796,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -1708,7 +1710,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 335,
             "statusBarHeight": 0,
             "windowBorder": false
         }
@@ -1720,9 +1722,9 @@
             "uiState": {
                 "mode": 1,
                 "x": 968,
-                "y": 28,
+                "y": 8,
                 "width": 944,
-                "height": 1044
+                "height": 1064
             }
         },
         "openedWindows": []

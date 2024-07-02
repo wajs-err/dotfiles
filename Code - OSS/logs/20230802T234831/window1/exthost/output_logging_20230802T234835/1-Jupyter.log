@@ -1,0 +1,277 @@
+Visual Studio Code (1.79.2, undefined, desktop)
+Jupyter Extension Version: 2023.4.1001091014.
+Python Extension Version: 2023.8.0.
+Platform: linux (x64).
+Workspace folder ~/study/python/lab, Home = /home/_wajs_err_
+23:48:36.373 [info] ZMQ loaded without the fallback mechanism.
+23:48:36.744 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+23:48:36.746 [info] Start refreshing Kernel Picker (1691009316746)
+23:48:36.799 [info] Using Pylance
+23:48:36.947 [debug] No controller, hence notebook communications cannot be initialized for editor ~/study/python/lab/lab.ipynb
+23:48:37.722 [debug] Get Custom Env Variables, Class name = wc, completed in 979ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+23:48:37.722 [debug] Jupyter Paths /kernels: 
+23:48:37.727 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+23:48:37.773 [debug] Getting activated env variables, Class name = Is (started execution), Arg 1: "~/study/python/lab", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+23:48:37.774 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: "~/study/python/lab", Arg 2: "RunPythonCode"
+23:48:37.778 [debug] Get Custom Env Variables, Class name = wc, completed in 4ms, has a truthy return value, Arg 1: "~/study/python/lab", Arg 2: "RunPythonCode"
+23:48:37.812 [debug] Not Searching for kernels as path does not exist, /usr/share/jupyter/kernels
+23:48:37.813 [debug] Not Searching for kernels as path does not exist, /usr/local/share/jupyter/kernels
+23:48:37.936 [debug] Loading kernelspec from ~/.local/share/jupyter/kernels/python3/kernel.json for 
+23:48:37.962 [debug] Conda file returned by Python Extension is conda
+23:48:37.989 [warn] Failed to get activated env vars for /bin/python in 214ms
+23:48:37.991 [debug] Create ProcessService, Class name = nc (started execution), Arg 1: undefined
+23:48:37.991 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+23:48:37.995 [debug] Get Custom Env Variables, Class name = wc, completed in 4ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+23:48:37.996 [debug] Create ProcessService, Class name = nc, completed in 5ms, has a truthy return value, Arg 1: undefined
+23:48:38.008 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+23:48:38.046 [debug] USER_SITE for /bin/python is ~/.local/bin
+23:48:38.047 [debug] Prepend PATH with user site path for /bin/python, user site ~/.local/bin
+23:48:38.047 [debug] Prepend PATH with python bin for /bin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+23:48:38.047 [debug] Activated Env Variables for /bin/python, 
+    PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+23:48:38.047 [debug] Got env vars with python /bin/python in 274ms with 48 variables
+23:48:38.047 [debug] Getting activated env variables, Class name = Is, completed in 274ms, has a truthy return value, Arg 1: "~/study/python/lab", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+23:48:38.064 [info] Process Execution: /bin/python -m pip list
+23:48:38.432 [debug] Python API env change detected, update => '/bin/python'
+23:48:38.434 [debug] Python API env change detected, update => '/sbin/python'
+23:48:38.434 [debug] Python API env change detected, update => '/usr/bin/python'
+23:48:38.435 [debug] Python API env change detected, update => '/usr/sbin/python'
+23:48:38.810 [debug] Full interpreter list after refreshing (total 363ms, resolve 1ms, refresh 362ms) is length: 4, /bin/python:undefined::/bin/python:/bin/python, /sbin/python:undefined::/sbin/python:/sbin/python, /usr/bin/python:undefined::/usr/bin/python:/usr/bin/python, /usr/sbin/python:undefined::/usr/sbin/python:/usr/sbin/python
+23:48:38.813 [debug] refreshData after detecting changes to interpreters
+23:48:38.815 [debug] Listing Python & non-Python kernels for Interpreter /bin/python
+23:48:38.816 [debug] Listing Python & non-Python kernels for Interpreter /sbin/python
+23:48:38.817 [debug] Finding Global Python KernelSpecs
+23:48:38.820 [debug] refreshData after detecting changes to interpreters
+23:48:38.820 [debug] Listing Python & non-Python kernels for Interpreter /usr/bin/python
+23:48:38.821 [debug] refreshData after detecting changes to interpreters
+23:48:38.822 [debug] Listing Python & non-Python kernels for Interpreter /usr/sbin/python
+23:48:38.822 [debug] refreshData after detecting changes to interpreters
+23:48:38.823 [debug] Full interpreter list is length: 4, /bin/python::Unknown:/bin/python, /sbin/python::Unknown:/sbin/python, /usr/bin/python::Unknown:/usr/bin/python, /usr/sbin/python::Unknown:/usr/sbin/python
+23:48:38.823 [debug] Refreshed Environments
+23:48:38.826 [debug] Kernel for interpreter /bin/python is .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+23:48:38.826 [debug] Kernels for interpreter /bin/python are .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+23:48:38.831 [debug] Kernel for interpreter /sbin/python is .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+23:48:38.832 [debug] Kernels for interpreter /sbin/python are .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+23:48:38.834 [debug] Kernel for interpreter /usr/bin/python is .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher
+23:48:38.834 [debug] Kernels for interpreter /usr/bin/python are .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher
+23:48:38.836 [debug] Kernel for interpreter /usr/sbin/python is .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher
+23:48:38.836 [debug] Kernels for interpreter /usr/sbin/python are .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher
+23:48:38.846 [debug] KernelProvider switched kernel to id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+23:48:38.847 [debug] start the kernel, options.disableUI=true for ~/study/python/lab/lab.ipynb
+23:48:38.850 [debug] Initialize notebook communications for editor ~/study/python/lab/lab.ipynb
+23:48:38.851 [debug] Resolving notebook UI Comms (resolve) for ~/study/python/lab/lab.ipynb
+23:48:38.851 [debug] initialize CommonMessageCoordinator
+23:48:38.878 [debug] Registering commtarget jupyter.widget
+23:48:38.878 [debug] IPyWidgetMessageDispatcher.initialize
+23:48:38.879 [debug] Attempting to determine version of IPyWidgets
+23:48:38.882 [debug] Controller selection change completed
+23:48:38.882 [debug] Waiting for IPyWidgets version
+23:48:38.882 [debug] Waiting for IPyWidgets version promise
+23:48:38.897 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher  (Python Path: /bin/python, Unknown, 3.11.3) for '~/study/python/lab/lab.ipynb' (disableUI=true)
+23:48:38.899 [debug] Creating raw notebook for resource '~/study/python/lab/lab.ipynb'
+23:48:38.912 [debug] Kernel Launcher. launch, Class name = Kg (started execution), Arg 1: ".jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/study/python/lab/lab.ipynb", Arg 4: "~/study/python/lab", Arg 5: ""
+23:48:38.912 [debug] Getting activated env variables, Class name = Is (started execution), Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+23:48:38.912 [debug] Get Custom Env Variables, Class name = wc (started execution), Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: "RunPythonCode"
+23:48:38.927 [debug] Get Custom Env Variables, Class name = wc, completed in 15ms, has a truthy return value, Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: "RunPythonCode"
+23:48:38.945 [debug] Launching kernel in kernelProcess.ts, Class name = Ug (started execution), Arg 1: "~/study/python/lab", Arg 2: ""
+23:48:38.953 [warn] Failed to get activated env vars for /bin/python in 41ms
+23:48:38.954 [debug] Prepend PATH with user site path for /bin/python, user site ~/.local/bin
+23:48:38.954 [debug] Prepend PATH with python bin for /bin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+23:48:38.954 [debug] Activated Env Variables for /bin/python, 
+    PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+23:48:38.954 [debug] Got env vars with python /bin/python in 42ms with 48 variables
+23:48:38.954 [debug] Getting activated env variables, Class name = Is, completed in 42ms, has a truthy return value, Arg 1: "~/study/python/lab/lab.ipynb", Arg 2: <Uri:/bin/python>, Arg 3: undefined
+23:48:38.962 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+23:48:38.963 [debug] Kernel Env Variables for ~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/jupyter/kernels/pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json, PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+23:48:38.971 [info] Process Execution: /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"07f05b7e-b9cf-44ac-ab59-932ba235045e" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-2347800urClyJaVnTH.json
+    > cwd: ~/study/python/lab
+23:48:38.972 [debug] Launching kernel in kernelProcess.ts, Class name = Ug, completed in 26ms, has a truthy return value, Arg 1: "~/study/python/lab", Arg 2: ""
+23:48:38.985 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /bin/python
+23:48:38.991 [debug] KernelProcess error: /bin/python: No module named ipykernel_launcher
+
+23:48:38.992 [warn] StdErr from Kernel Process /bin/python: No module named ipykernel_launcher
+23:48:38.997 [debug] KernelProcess Exit Exit - 1 /bin/python: No module named ipykernel_launcher
+
+23:48:38.998 [error] Disposing kernel process due to an error [mp [Error]: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:86433)
+	at ChildProcess.emit (node:events:525:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  isJupyterError: true,
+  kernelConnectionMetadata: Ku {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: lu {
+      specFile: '~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/jupyter/kernels/pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json',
+      interpreterPath: '/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3',
+      metadata: [Object],
+      env: {},
+      interrupt_mode: undefined
+    },
+    interpreter: {
+      id: '/bin/python',
+      sysPrefix: '/usr',
+      envPath: undefined,
+      displayPath: [n],
+      envName: '',
+      uri: [n],
+      displayName: '',
+      envType: 'Unknown',
+      isCondaEnvWithoutPython: false,
+      version: [Object]
+    },
+    id: '.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python: No module named ipykernel_launcher\n'
+}
+23:48:39.000 [info] Dispose Kernel process 234998.
+23:48:39.001 [debug] Disposed Kernel process 234998.
+23:48:39.003 [error] Kernel Launcher. launch, Class name = Kg, completed in 91ms, has a falsy return value, Arg 1: ".jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/study/python/lab/lab.ipynb", Arg 4: "~/study/python/lab", Arg 5: "" [mp [Error]: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:86433)
+	at ChildProcess.emit (node:events:525:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  isJupyterError: true,
+  kernelConnectionMetadata: Ku {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: lu {
+      specFile: '~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/jupyter/kernels/pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json',
+      interpreterPath: '/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3',
+      metadata: [Object],
+      env: {},
+      interrupt_mode: undefined
+    },
+    interpreter: {
+      id: '/bin/python',
+      sysPrefix: '/usr',
+      envPath: undefined,
+      displayPath: [n],
+      envName: '',
+      uri: [n],
+      displayName: '',
+      envType: 'Unknown',
+      isCondaEnvWithoutPython: false,
+      version: [Object]
+    },
+    id: '.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python: No module named ipykernel_launcher\n'
+}
+23:48:39.004 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+23:48:39.004 [debug] Shutdown session -- complete
+23:48:39.004 [debug] failed to create IJupyterKernelConnectionSession in kernel, UI Disabled = true [mp [Error]: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:86433)
+	at ChildProcess.emit (node:events:525:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  isJupyterError: true,
+  kernelConnectionMetadata: Ku {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: lu {
+      specFile: '~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/jupyter/kernels/pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json',
+      interpreterPath: '/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3',
+      metadata: [Object],
+      env: {},
+      interrupt_mode: undefined
+    },
+    interpreter: {
+      id: '/bin/python',
+      sysPrefix: '/usr',
+      envPath: undefined,
+      displayPath: [n],
+      envName: '',
+      uri: [n],
+      displayName: '',
+      envType: 'Unknown',
+      isCondaEnvWithoutPython: false,
+      version: [Object]
+    },
+    id: '.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python: No module named ipykernel_launcher\n'
+}
+23:48:39.006 [warn] Error occurred while trying to start the kernel, options.disableUI=true [mp [Error]: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+	at ChildProcess.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/out/extension.node.js:24:86433)
+	at ChildProcess.emit (node:events:525:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  isJupyterError: true,
+  kernelConnectionMetadata: Ku {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: lu {
+      specFile: '~/.vscode-oss/extensions/ms-toolsai.jupyter-2023.4.1001091014-universal/temp/jupyter/kernels/pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json',
+      interpreterPath: '/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'pythonjvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3',
+      metadata: [Object],
+      env: {},
+      interrupt_mode: undefined
+    },
+    interpreter: {
+      id: '/bin/python',
+      sysPrefix: '/usr',
+      envPath: undefined,
+      displayPath: [n],
+      envName: '',
+      uri: [n],
+      displayName: '',
+      envType: 'Unknown',
+      isCondaEnvWithoutPython: false,
+      version: [Object]
+    },
+    id: '.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python: No module named ipykernel_launcher\n'
+}
+23:48:39.824 [info] End refreshing Kernel Picker (1691009316746)
+23:48:53.839 [debug] Updating cache with Python kernels startUsingPythonInterpreter:'.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (interpreter id = /bin/python)', startUsingPythonInterpreter:'.jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (interpreter id = /sbin/python)', startUsingPythonInterpreter:'.jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (interpreter id = /usr/bin/python)', startUsingPythonInterpreter:'.jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (interpreter id = /usr/sbin/python)', Added = startUsingPythonInterpreter:'.jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (interpreter id = /usr/sbin/python)', Updated = , Removed = 
+23:48:57.380 [info] Shutting down notebooks for 34c23e76-0f3e-4994-ac7f-0a6aab10edb8
+23:48:57.380 [info] Disposing HostJupyterExecution 96c1990e-6ce7-40de-9fa3-af87cff306e1
+23:48:57.380 [debug] Disposing super HostJupyterExecution 96c1990e-6ce7-40de-9fa3-af87cff306e1
+23:48:57.380 [info] Dispose Kernel '~/study/python/lab/lab.ipynb' associated with '~/study/python/lab/lab.ipynb'
+23:48:57.380 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/study/python/lab/lab.ipynb
+23:48:57.381 [info] Disposing HostJupyterExecution 96c1990e-6ce7-40de-9fa3-af87cff306e1
+23:48:57.381 [debug] Finished disposing HostJupyterExecution  96c1990e-6ce7-40de-9fa3-af87cff306e1
+23:48:57.383 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher and documents file://~/study/python/lab/lab.ipynb
+23:48:57.388 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+23:48:57.388 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+23:48:57.388 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+23:48:57.388 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+23:48:57.388 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+23:48:57.389 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+23:48:57.389 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+23:48:57.389 [debug] Cleaning up server cache 96c1990e-6ce7-40de-9fa3-af87cff306e1
+23:48:57.390 [debug] Finished disposing HostJupyterExecution  96c1990e-6ce7-40de-9fa3-af87cff306e1

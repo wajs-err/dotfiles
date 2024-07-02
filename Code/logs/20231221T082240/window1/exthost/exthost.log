@@ -1,0 +1,54 @@
+2023-12-21 08:22:42.405 [info] Extension host with pid 416716 started
+2023-12-21 08:22:42.421 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2023-12-21 08:22:42.467 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-21 08:22:42.475 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-21 08:22:42.580 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-21 08:22:42.698 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-12-21 08:22:43.025 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-12-21 08:22:43.029 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-12-21 08:22:43.033 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+2023-12-21 08:22:43.068 [info] Eager extensions activated
+2023-12-21 08:22:43.625 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-21 08:22:43.631 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-21 08:22:43.672 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-12-21 08:22:57.709 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-23 22:18:36.254 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-23 22:18:36.290 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at ep.executeCommand (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:7443)
+	at e_.set (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:299554)
+	at Sk.updateContextOfActiveNotebookKernel (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:496820)
+	at Sk.onDidKernelStatusChange (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:498409)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at uv.<anonymous> (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:39580)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at /home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:234906
+	at Yg.dispose (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:17:235008)
+	at /home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:2352947
+	at Array.map (<anonymous>)
+	at Ac.dispose (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:2:2352937)
+	at Module.AT (/home/_wajs_err_/.vscode/extensions/ms-toolsai.jupyter-2023.9.100-universal/out/extension.node.js:24:650470)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9678)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-12-23 22:18:36.301 [info] Extension host with pid 416716 exiting with code 0

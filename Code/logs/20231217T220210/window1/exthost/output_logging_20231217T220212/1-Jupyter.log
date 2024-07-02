@@ -1,0 +1,61 @@
+Visual Studio Code (1.85.1, undefined, desktop)
+Jupyter Extension Version: 2023.9.100.
+Python Extension Version: 2023.20.0.
+Platform: linux (x64).
+No workspace folder opened.
+22:02:21.739 [info] User belongs to experiment group 'NewJupyterSession'
+22:02:22.175 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+22:02:22.176 [info] Start refreshing Kernel Picker (1702839742176)
+22:02:22.184 [info] Using Pylance
+22:02:22.218 [debug] Get Custom Env Variables, Class name = Kl, completed in 43ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+22:02:22.219 [debug] Jupyter Paths /kernels: 
+22:02:22.220 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+22:02:22.648 [debug] Loading kernelspec from /usr/share/jupyter/kernels/python3/kernel.json 
+22:02:22.655 [info] End refreshing Kernel Picker (1702839742176)
+22:02:22.799 [info] Start refreshing Kernel Picker (1702839742799)
+22:02:22.838 [debug] Search for KernelSpecs in Interpreter /bin/python
+22:02:22.839 [debug] Finding Global Python KernelSpecs
+22:02:22.841 [debug] Search for KernelSpecs in Interpreter /sbin/python
+22:02:22.842 [debug] Search for KernelSpecs in Interpreter /usr/bin/python
+22:02:22.842 [debug] Search for KernelSpecs in Interpreter /usr/sbin/python
+22:02:22.843 [debug] Full interpreter list is length: 4, /bin/python::Unknown:/bin/python, /sbin/python::Unknown:/sbin/python, /usr/bin/python::Unknown:/usr/bin/python, /usr/sbin/python::Unknown:/usr/sbin/python
+22:02:22.846 [debug] Getting activated env variables, Class name = za (started execution), Arg 1: undefined, Arg 2: "/bin/python", Arg 3: undefined
+22:02:22.847 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunPythonCode"
+22:02:22.849 [debug] Get Custom Env Variables, Class name = Kl, completed in 2ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+22:02:22.896 [debug] Kernels for interpreter /bin/python are .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+22:02:22.898 [debug] Kernels for interpreter /sbin/python are .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher
+22:02:22.898 [debug] Kernels for interpreter /usr/bin/python are .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher
+22:02:22.899 [debug] Kernels for interpreter /usr/sbin/python are .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher
+22:02:22.964 [debug] Conda file returned by Python Extension is conda
+22:02:22.997 [warn] Failed to get activated env vars for /bin/python in 150ms
+22:02:22.999 [debug] Create ProcessService, Class name = Cl (started execution), Arg 1: undefined
+22:02:22.999 [debug] Get Custom Env Variables, Class name = Kl (started execution), Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+22:02:23.000 [debug] Get Custom Env Variables, Class name = Kl, completed in 1ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+22:02:23.000 [debug] Create ProcessService, Class name = Cl, completed in 1ms, has a truthy return value, Arg 1: undefined
+22:02:23.010 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+22:02:23.038 [debug] USER_SITE for /bin/python is ~/.local/bin
+22:02:23.038 [debug] Prepend PATH with user site path for /bin/python, user site ~/.local/bin
+22:02:23.038 [debug] Prepend PATH with python bin for /bin/python, 
+    PATH value is ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+22:02:23.038 [debug] Activated Env Variables for /bin/python, 
+    PATH value is /bin:~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/local/bin:/usr/bin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl and 
+    Path value is undefined
+22:02:23.039 [debug] Getting activated env variables, Class name = za, completed in 193ms, has a truthy return value, Arg 1: undefined, Arg 2: "/bin/python", Arg 3: undefined
+22:02:23.048 [info] Process Execution: /bin/python -m pip list
+22:02:23.844 [info] End refreshing Kernel Picker (1702839742799)
+00:06:47.406 [info] Disposing HostJupyterExecution
+00:06:47.406 [debug] Disposing super HostJupyterExecution
+00:06:47.406 [debug] Cleaning up server cache
+00:06:47.406 [info] Shutting down notebooks for c1c771b9-f463-4c3e-a061-5e10a55ffb49
+00:06:47.407 [info] Disposing HostJupyterExecution
+00:06:47.407 [debug] Finished disposing HostJupyterExecution
+00:06:47.410 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+00:06:47.414 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+00:06:47.414 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+00:06:47.414 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+00:06:47.415 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+00:06:47.415 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+00:06:47.415 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+00:06:47.415 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+00:06:47.416 [debug] Finished disposing HostJupyterExecution
