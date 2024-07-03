@@ -37,10 +37,10 @@
 #keystate_capslock = enable
 #keystate_scrolllock= enable
 
-"amixer set Master 5%+"
+"/home/_wajs_err_/.config/increase_volume"
     mod2 + XF86AudioRaiseVolume
 
-"amixer set Master 5%-"
+"/home/_wajs_err_/.config/decrease_volume"
     mod2 + XF86AudioLowerVolume
 
 "amixer set Master toggle"
@@ -52,14 +52,38 @@
 "/home/_wajs_err_/.config/setkeymapforbindkeys"
     mod4 + space
 
-"maim -s | xclip -selection clipboard -t image/png"
+"maim -u -s | xclip -selection clipboard -t image/png"
     Control + Shift + Print
+
+#"maim -B -u -i ($xdotool getactivewindow) | xclip -selection clipboard -t image/png"
+#    Contorl + Print
 
 "light -U 10%"
     mod2 + XF86MonBrightnessDown
 
 "light -A 10%"
     mod2 + XF86MonBrightnessUp
+
+"! (mpc status | grep playing > /dev/null && mpc pause > /dev/null) && mpc play > /dev/null"
+    mod4 + p
+
+"mpc status | grep playing > /dev/null && mpc next"
+    mod4 + n
+
+# "mpc status | grep playing > /dev/null && mpc next"
+#     mod2 + X86AudioNext
+#
+# "mpc play"
+#     XF86AudioPlay
+#
+# "mpc pause"
+#     XF86AudioPause / XF86AudioStop
+#
+# "mpc next"
+#     XF86AudioNext
+#
+# "mpc prev"
+#     XF86AudioPrev
 
 ## set directly keycode (here control+alt+mod2 + f with my keyboard)
 #"xterm"
