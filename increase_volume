@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if bluetoothctl info | grep audio-headset > /dev/null; then
+    pactl set-sink-volume $(pacmd list-sinks | grep "\* index:.*" | grep -o "[0-9]*") +10%
+else
+    amixer set Master 5%+
+fi

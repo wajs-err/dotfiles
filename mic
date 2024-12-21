@@ -1,0 +1,14 @@
+#!/bin/bash
+
+green="\033[1;32m"
+default="\033[1;39m"
+
+if [[ "$1" == "m" ]] ; then
+    pacmd set-card-profile bluez_card.04_29_2E_33_AC_AD handsfree_head_unit
+    echo -e "$green=> microphone available$default"
+fi
+
+if [[ "$1" == "s" ]] ; then
+    pacmd set-card-profile bluez_card.04_29_2E_33_AC_AD a2dp_sink
+    echo -e "$green=> sound quality fixed, microphone unavailable"
+fi
